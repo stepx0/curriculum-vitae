@@ -42,7 +42,11 @@
 
       {% if graduation.details %}
       <div class="details">
-        {{ graduation.details | markdownify }}
+        {% for item in graduation.details %}
+        <div class="row">
+          {{ item.text | markdownify }}
+        </div>
+        {% endfor %}
       </div><!--//details-->
       {% endif %}
 

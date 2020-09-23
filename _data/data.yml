@@ -64,19 +64,19 @@ education:
     - degree: Bachelor of Arts, International Business Management and French
       university: Edinburgh Napier University
       time: 2017 - 2021
-      details: |
-       ·Discovered passion for Project Management through leadership of various working groups, leveraging on skills gained as a Choirand English teacher.
-       ·Implemented real-world marketing campaigns resulting in an increase in all principal KPIs monitored.
-       ·Applied Project Management skills to Consultancy Project in a real business environment.
-       ·Advanced French studies through a continuous modules alongside Business Management.
-       ·Developed solutions and strategies to overcome issues in Operations Management situations.
+      details:
+        - text: Discovered passion for Project Management through leadership of various working groups, leveraging on skills gained as a Choirand English teacher.
+        - text: Implemented real-world marketing campaigns resulting in an increase in all principal KPIs monitored.
+        - text: Applied Project Management skills to Consultancy Project in a real business environment.
+        - text: Advanced French studies through a continuous modules alongside Business Management.
+        - text: Developed solutions and strategies to overcome issues in Operations Management situations.
       
     - degree: Social Sciences Baccalaureate
       university: Colegio Sagrado Corazon "Las Esclavas"(Fundación Spìnola)
       time: 2014 - 2016
-      details: |
-        ·Strong focus on Economy and Numerical Analysis applied to Social Sciences.
-        ·Enrolled in elective Philosophy modules.
+      details:
+        - text: Strong focus on Economy and Numerical Analysis applied to Social Sciences.
+        - text: Enrolled in elective Philosophy modules.
 experiences:
     - role: Bartender, Waitress and Hostess
       time: 2018 - 2020
