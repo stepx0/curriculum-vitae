@@ -150,23 +150,18 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python 
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Microsoft Office
         level: 98%
 
-      - name: Angular
+      - name: Autodesk Fusion 360
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Adobe CC
         level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+        
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by Maria
