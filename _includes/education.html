@@ -42,14 +42,9 @@
 
       {% if graduation.details %}
       <div class="details">
-        <ul class="list-group">
           {% for item in graduation.details %}
-            <li class="list-group-item">
-              {{ item.text | markdownify }}
-            </li>
-          </div>
+          <p>&#9642; {{ item.text | markdownify }} </p>
           {% endfor %}
-        </ul>
       </div><!--//details-->
       {% endif %}
 
