@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Maria McGlade Segovia
-    tagline: International Business and French
+    tagline: Business Internazionale e Lingua Francese
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -55,22 +55,19 @@ career-profile:
       marketing and French through group and individual projects. Gained valuable skills and experience in marketing and brand management
       through the application of marketing programs as a social media manager. Cultivated love for design by gaining knowledge in Autodesk Fusion 360.
       
-
-
-
 education:
-    - degree: Laurea Triennale [ing. BoA], Gestione Aziendale e Lingua Francese
+    - degree: Bachelor of Arts, Business Internazionale e Lingua Francese
       university: Edinburgh Napier University
       time: 2017 - 2021
       details:
         - text: Passione per il Project Management siluppata dirigendo numerosi gruppi di lavoro.
-        - text: Progettazione di numerose campagne marketing online rivolte ad aziende locali, in grado di migliorare i KPIs monitorati.
+        - text: Campagne marketing online rivolte ad aziende locali, in grado di migliorare i KPIs monitorati.
         - text: Applicazione di principi di Project Management e Strategia d'Impresa in un progetto di consulenza per un'azienda esterna.
         - text: Studio approfondito della lingua Francese, sia in ambito lavorativo che letterario.
         - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi.
       
     - degree: Diploma in Scienze Sociali
-      university: Colegio Sagrado Corazon "Las Esclavas"(Fundación Spìnola)
+      university: Colegio Sagrado Corazon "Las Esclavas" (Fundación Spìnola)
       time: 2014 - 2016
       details:
         - text: Focus particolare in Economia ed Analisi Matematica applicate alle Scienze Sociali.
@@ -83,8 +80,8 @@ experiences:
       details:
         - text: Catena locale del settore alberghiero e della ristorazione.
         - text: Progettazione e gestione delle campagne sui principali canali social - Instagram e Facebook.
-        - test: Gestione di iniziative ed eventi ad-hoc mirati ad aumentare l'engagement con particolari gruppi del contesto sociale locale.
-        - text: Conseguito i target di fatturato, mantenendo un atteggiamento positivo coi clienti e imparando a gestire situaizioni di stress.
+        - text: Gestione di iniziative ed eventi ad-hoc mirati ad aumentare l'engagement con particolari gruppi del contesto sociale locale.
+        - text: Conseguito i target di fatturato, con un atteggiamento positivo e gestendo situaizioni di stress.
         - text: Sviluppo di capacità comunicative e di negoziazione sia all'interno del team sia verso l'esterno.
     - role: Insegnante di Inglese
       time: 2016 - 2017
@@ -106,7 +103,7 @@ certifications:
         tagline: "Percorso online incentrato sull'innovazione di prodotto e sul digital manufacturing attraverso il software CAD/CAM/CAE Autodesk® Fusion 360™."
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Competenze
 
     toolset:
 
@@ -117,11 +114,11 @@ skills:
         level: 85%
 
       - name: Python 
-        level: 80%
+        level: 60%
 
       - name: Adobe CC
-        level: 75%
+        level: 55%
         
 
 footer: >
-    Creato con il <i class="fas fa-heart"></i> da Maria
+    Creato da Maria McGlade Segovia
