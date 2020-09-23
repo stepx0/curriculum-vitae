@@ -81,8 +81,8 @@ experiences:
     - role: Bartender, Waitress and Hostess
       time: 2018 - 2020
       company: Montpeliers Ltd., Edinburgh
-      details: |
-        ·Local hospitality chain, principally involved in bars, restaurants and hotels.
+      details:
+        - text: Local hospitality chain, principally involved in bars, restaurants and hotels.
         ·Involved in the design and management of social media campaigns, as well as in improving customer engagement through focusedad-hoc initiatives.
         ·Delivered daily sales targets as well as demonstrated commercial initiative by implementing effective direct marketing campaignsthat improved sales.
         ·Developed relationship building competences to guarantee returning customers.

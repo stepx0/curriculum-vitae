@@ -25,10 +25,11 @@
 
     {% if experience.details %}
     <div class="details">
-      {{ experience.details | markdownify }}
+        {% for item in experience.details %}
+        <p>&#9642; {{ item.text }} </p>
+        {% endfor %}
     </div><!--//details-->
     {% endif %}
-
   </div><!--//item-->
   {% endfor %}
 
