@@ -26,33 +26,30 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Inglese
+        level: Madrelingua
 
-      - idiom: Spanish
-        level: Native
+      - idiom: Spagnolo
+        level: Madrelingua
         
-      - idiom: French
-        level: Professional
+      - idiom: Francese
+        level: Professionale
         
-      - idiom: Italian
-        level: Elementary
+      - idiom: Italiano
+        level: Elementare
         
-      - idiom: German
-        level: Elementary
-
     interests:
-      - item: Design
+      - item: Design del Prodotto
         link:
 
-      - item: Travelling
+      - item: Viaggiare
         link:
 
-      - item: Writing
+      - item: Scrittura Creativa
         link:
 
 career-profile:
-    title: Career Profile
+    title: Profilo Professionale
     summary: |
       Business Management student with proven academic knowdlege in project and operations management, 
       marketing and French through group and individual projects. Gained valuable skills and experience in marketing and brand management
@@ -62,24 +59,24 @@ career-profile:
 
 
 education:
-    - degree: Bachelor of Arts, International Business Management and French
+    - degree: Laurea Triennale [ing. BoA], Gestione Aziendale e Lingua Francese
       university: Edinburgh Napier University
       time: 2017 - 2021
       details:
-        - text: Discovered passion for Project Management through leadership of various working groups, leveraging on skills gained as a Choirand English teacher.
-        - text: Implemented real-world marketing campaigns resulting in an increase in all principal KPIs monitored.
-        - text: Applied Project Management skills to Consultancy Project in a real business environment.
-        - text: Advanced French studies through a continuous modules alongside Business Management.
-        - text: Developed solutions and strategies to overcome issues in Operations Management situations.
+        - text: Passione per il Project Management siluppata dirigendo numerosi gruppi di lavoro.
+        - text: Progettazione di numerose campagne marketing online rivolte ad aziende locali, in grado di migliorare i KPIs monitorati.
+        - text: Applicazione di principi di Project Management e Strategia d'Impresa in un progetto di consulenza per un'azienda esterna.
+        - text: Studio approfondito della lingua Francese, sia in ambito lavorativo che letterario.
+        - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi.
       
-    - degree: Social Sciences Baccalaureate
+    - degree: Diploma in Scienze Sociali
       university: Colegio Sagrado Corazon "Las Esclavas"(Fundación Spìnola)
       time: 2014 - 2016
       details:
-        - text: Strong focus on Economy and Numerical Analysis applied to Social Sciences.
-        - text: Enrolled in elective Philosophy modules.
+        - text: Focus particolare in Economia ed Analisi Matematica applicate alle Scienze Sociali.
+        - text: Iscritta a corsi facoltativi di Filosofia.
 experiences:
-    - role: Bartender, Hostess and Social Media Manager
+    - role: Cameriera e Responsabile Social mMdia
       time: 2018 - 2020
       company: Montpeliers Ltd., Edinburgh
       details:
@@ -98,8 +95,8 @@ experiences:
         - text: Demonstrated creative and innovative problem-solving skills.
         - text: Designed personalized study plans based on individuals’ academic needs.
    
-projects:
-    title: Projects
+certifications:
+    title: Certifications
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -125,44 +122,23 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps" 
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python 
-        level: 98%
 
       - name: Microsoft Office
-        level: 98%
+        level: 90%
 
       - name: Autodesk Fusion 360
-        level: 98%
+        level: 85%
+
+      - name: Python 
+        level: 80%
 
       - name: Adobe CC
-        level: 95%
+        level: 75%
         
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by Maria
+    Creato con il <i class="fas fa-heart"></i> da Maria
