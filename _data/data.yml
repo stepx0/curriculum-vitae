@@ -51,18 +51,16 @@ sidebar:
 career-profile:
     title: Profilo Professionale
     summary: |
-      Business Management student with proven academic knowdlege in project and operations management and 
-      marketing through group and individual projects. Hands on experience in coding and CAD. Managed live social media campaigns and events.
-    
+      Studente di gestione aziendale presso la Napier University di Edimburgo, dove mi appassiono di project management, marketing e operations. Esperienza pratica in disegno CAD/CAM, programmazione e analisi dati. Parlo inglese e spagnolo da madrelingua, francese a livello professionale.
       
 education:
     - degree: Bachelor of Arts, Business Internazionale e Lingua Francese
       university: Edinburgh Napier University
       time: 2017 - 2021
       details:
-        - text: Passione per il Project Management siluppata dirigendo numerosi gruppi di lavoro.
+        - text: Passione per il project management siluppata dirigendo numerosi gruppi di lavoro.
         - text: Campagne marketing online rivolte ad aziende locali, in grado di migliorare i KPIs monitorati.
-        - text: Applicazione di principi di Project Management e Strategia d'Impresa in un progetto di consulenza per un'azienda esterna.
+        - text: Progetto di consulenza per un'azienda esterna incentrato sulla strategia e il project management.
         - text: Studio approfondito della lingua Francese, sia in ambito lavorativo che letterario.
         - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi.
       
@@ -80,7 +78,7 @@ experiences:
       details:
         - text: Catena locale del settore alberghiero e della ristorazione.
         - text: Progettazione e gestione delle campagne sui principali canali social - Instagram e Facebook.
-        - text: Gestione di iniziative ed eventi ad-hoc mirati ad aumentare l'engagement con particolari gruppi del contesto sociale locale.
+        - text: Gestione di eventi ad-hoc mirati ad aumentare l'engagement di particolari gruppi target.
         - text: Conseguito i target di fatturato, con un atteggiamento positivo e gestendo situaizioni di stress.
         - text: Sviluppo di capacità comunicative e di negoziazione sia all'interno del team sia verso l'esterno.
     - role: Insegnante di Inglese
@@ -95,12 +93,12 @@ certifications:
     title: Certificazioni
     assignments:
       - title: Analyze Data with Python Skill Path (Codacademy)
-        link: "#https://miamcgs.github.io/certifications/analyze_data_with_python_skill_path.pdf"
+        link: "https://miamcgs.github.io/certifications/analyze_data_with_python_skill_path.pdf"
         tagline: "Analisi di dati con Jupyter Notebook e le librerie Pandas, Numpy, Matplotlib e Scipy."
 
       - title: CAD and Digital Manufacturing Specialization (Coursera)
-        link: "#https://miamcgs.github.io/certifications/cad_and_digital_manufacturing_specialisation.pdf"
-        tagline: "Percorso online incentrato sull'innovazione di prodotto e sul digital manufacturing attraverso il software CAD/CAM/CAE Autodesk® Fusion 360™."
+        link: "https://miamcgs.github.io/certifications/cad_and_digital_manufacturing_specialisation.pdf"
+        tagline: "Percorso online incentrato sull'innovazione di prodotto e sul digital manufacturing attraverso il software Autodesk® Fusion 360™."
 
 skills:
     title: Competenze
