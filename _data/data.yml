@@ -75,52 +75,35 @@ education:
       details:
         - text: Focus particolare in Economia ed Analisi Matematica applicate alle Scienze Sociali.
         - text: Iscritta a corsi facoltativi di Filosofia.
+
 experiences:
-    - role: Cameriera e Responsabile Social mMdia
+    - role: Cameriera e Responsabile Social Media
       time: 2018 - 2020
       company: Montpeliers Ltd., Edinburgh
       details:
-        - text: Local hospitality chain, principally involved in bars, restaurants and hotels.
-        - text: Involved in the design and management of social media campaigns, as well as in improving customer engagement through focusedad-hoc initiatives.
-        - text: Delivered daily sales targets as well as demonstrated commercial initiative by implementing effective direct marketing campaignsthat improved sales.
-        - text: Developed relationship building competences to guarantee returning customers.
-        - text: Adopted conflict resolution techniques to create a positive environment and reduce risks in high-stress situations.
-        - text: Developed communication skills through negotiation and the effective analysis of feedbacks from customers.
-    - role: English Teacher for Children and Adults
+        - text: Catena locale del settore alberghiero e della ristorazione.
+        - text: Progettazione e gestione delle campagne sui principali canali social - Instagram e Facebook.
+        - test: Gestione di iniziative ed eventi ad-hoc mirati ad aumentare l'engagement con particolari gruppi del contesto sociale locale.
+        - text: Conseguito i target di fatturato, mantenendo un atteggiamento positivo coi clienti e imparando a gestire situaizioni di stress.
+        - text: Sviluppo di capacità comunicative e di negoziazione sia all'interno del team sia verso l'esterno.
+    - role: Insegnante di Inglese
       time: 2016 - 2017
       company: Academia Innova SL, Madrid
       details: 
-        - text: Private language and academic support school.
-        - text: Successfully improved students’ participation in the classroom through integration of creative role-playing exercises.
-        - text: Demonstrated creative and innovative problem-solving skills.
-        - text: Designed personalized study plans based on individuals’ academic needs.
+        - text: Insegnante privata di lingua inglese a persone di ogni età e contesto culturale.
+        - text: Aumento nella partecipazione degli studenti attraverso modalità di indegnamento alternative, tra cui giochi di ruolo.
+        - text: Creazione di piani di studio personalizzati basati sulle necessità individuali delli studenti.
    
 certifications:
-    title: Certifications
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Certificazioni
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Analyze Data with Python Skill Path (Codacademy)
+        link: "#https://miamcgs.github.io/certifications/analyze_data_with_python_skill_path.pdf"
+        tagline: "Analisi di dati con Jupyter Notebook e le librerie Pandas, Numpy, Matplotlib e Scipy."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps" 
+      - title: CAD and Digital Manufacturing Specialization (Coursera)
+        link: "#https://miamcgs.github.io/certifications/cad_and_digital_manufacturing_specialisation.pdf"
+        tagline: "Percorso online incentrato sull'innovazione di prodotto e sul digital manufacturing attraverso il software CAD/CAM/CAE Autodesk® Fusion 360™."
 
 skills:
     title: Skills &amp; Proficiency
