@@ -26,33 +26,30 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
-        level: Native
+      - idiom: Inglese
+        level: Madrelingua
 
-      - idiom: Spanish
-        level: Native
+      - idiom: Spagnolo
+        level: Madrelingua
         
-      - idiom: French
-        level: Professional
+      - idiom: Francese
+        level: Professionale
         
-      - idiom: Italian
-        level: Elementary
+      - idiom: Italiano
+        level: Elementare
         
-      - idiom: German
-        level: Elementary
-
     interests:
-      - item: Design
+      - item: Design del Prodotto
         link:
 
-      - item: Travelling
+      - item: Viaggiare
         link:
 
-      - item: Writing
+      - item: Scrittura Creativa
         link:
 
 career-profile:
-    title: Career Profile
+    title: Chi Sono?
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -61,15 +58,15 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: Bachelor of Arts, International Business Management and French
+    - degree: Doppia Laurea Triennale (Bachelor of Arts), Gestione Aziendale e Lingua Francese
       university: Edinburgh Napier University
       time: 2017 - 2021
       details:
-        - text: Discovered passion for Project Management through leadership of various working groups, leveraging on skills gained as a Choirand English teacher.
-        - text: Implemented real-world marketing campaigns resulting in an increase in all principal KPIs monitored.
-        - text: Applied Project Management skills to Consultancy Project in a real business environment.
-        - text: Advanced French studies through a continuous modules alongside Business Management.
-        - text: Developed solutions and strategies to overcome issues in Operations Management situations.
+        - text: Passione per il Project Management siluppata dirigendo numerosi gruppi di lavoro.
+        - text: Progettazione di numerose campagne marketing online rivolte ad aziende locali, in grado di migliorare i KPIs monitorati.
+        - text: Applicazione di principi di Project Management e Strategia d'Impresa in un progetto di consulenza per un'azienda esterna.
+        - text: Studio approfondito della lingua Francese, sia in ambito lavorativo che letterario.
+        - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi.
       
     - degree: Social Sciences Baccalaureate
       university: Colegio Sagrado Corazon "Las Esclavas"(Fundación Spìnola)
