@@ -49,7 +49,7 @@ sidebar:
         link:
 
 career-profile:
-    title: Chi Sono?
+    title: Profilo Professionale
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -58,7 +58,7 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: Laurea Triennale (Bachelor of Arts), Gestione Aziendale e Lingua Francese
+    - degree: Laurea Triennale [ing. BoA], Gestione Aziendale e Lingua Francese
       university: Edinburgh Napier University
       time: 2017 - 2021
       details:
@@ -68,12 +68,12 @@ education:
         - text: Studio approfondito della lingua Francese, sia in ambito lavorativo che letterario.
         - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi.
       
-    - degree: Social Sciences Baccalaureate
+    - degree: Diploma in Scienze Sociali
       university: Colegio Sagrado Corazon "Las Esclavas"(Fundación Spìnola)
       time: 2014 - 2016
       details:
-        - text: Strong focus on Economy and Numerical Analysis applied to Social Sciences.
-        - text: Enrolled in elective Philosophy modules.
+        - text: Focus particolare in Economia ed Analisi Matematica applicate alle Scienze Sociali.
+        - text: Iscritta a corsi facoltativi di Filosofia.
 experiences:
     - role: Bartender, Waitress and Hostess
       time: 2018 - 2020
