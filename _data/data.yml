@@ -51,17 +51,17 @@ sidebar:
 career-profile:
     title: Profilo Professionale
     summary: |
-      Studente di gestione aziendale presso la Napier University di Edimburgo, dove mi appassiono di project management, marketing e operations. Esperienza pratica in disegno CAD/CAM, programmazione e analisi dati. Parlo inglese e spagnolo da madrelingua, francese a livello professionale.
+      Studente di Gestione Aziendale presso la Napier University di Edimburgo, dove mi appassiono di project management, marketing e operations. Esperienza pratica in disegno CAD/CAM, programmazione e analisi dati. Parlo inglese e spagnolo da madrelingua, francese a livello professionale.
       
 education:
-    - degree: Bachelor of Arts, Business Internazionale e Lingua Francese
+    - degree: Bachelor of Arts, Gestione Aziendale e Lingua Francese
       university: Edinburgh Napier University
       time: 2017 - 2021
       details:
         - text: Passione per il project management siluppata dirigendo numerosi gruppi di lavoro.
         - text: Campagne marketing online rivolte ad aziende locali, in grado di migliorare i KPIs monitorati.
-        - text: Progetto di consulenza per un'azienda esterna incentrato sulla strategia e il project management.
-        - text: Studio approfondito della lingua Francese, sia in ambito lavorativo che letterario.
+        - text: Progetto di consulenza strategica per un'azienda esterna.
+        - text: Studio approfondito della lingua francese, sia in ambito lavorativo che letterario.
         - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi.
       
     - degree: Diploma in Scienze Sociali
@@ -86,7 +86,7 @@ experiences:
       company: Academia Innova SL, Madrid
       details: 
         - text: Insegnante privata di lingua inglese a persone di ogni età e contesto culturale.
-        - text: Aumento nella partecipazione degli studenti attraverso modalità di indegnamento alternative, tra cui giochi di ruolo.
+        - text: Aumento nella partecipazione degli studenti attraverso modalità di indegnamento alternative.
         - text: Creazione di piani di studio personalizzati basati sulle necessità individuali delli studenti.
    
 certifications:
