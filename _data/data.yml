@@ -88,11 +88,11 @@ experiences:
     - role: English Teacher for Children and Adults
       time: 2016 - 2017
       company: Academia Innova SL, Madrid
-      details: |
-        ·Private language and academic support school.
-        ·Successfully improved students’ participation in the classroom through integration of creative role-playing exercises.
-        ·Demonstrated creative and innovative problem-solving skills.
-        ·Designed personalized study plans based on individuals’ academic needs.
+      details: 
+        - text: Private language and academic support school.
+        - text: Successfully improved students’ participation in the classroom through integration of creative role-playing exercises.
+        - text: Demonstrated creative and innovative problem-solving skills.
+        - text: Designed personalized study plans based on individuals’ academic needs.
    
 projects:
     title: Projects
