@@ -8,13 +8,9 @@ sidebar:
 
     # Profile information
     name: Maria McGlade Segovia
-<<<<<<< HEAD
-    tagline: International Business and French
-    avatar: profile_pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-=======
+
     tagline: Gestione Aziendale e Lingua Francese
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
->>>>>>> 92b2656a4282698c35e6007a15fbde294dfbf5bb
 
     # Sidebar links
     email: maria.mcglade@outlook.com
