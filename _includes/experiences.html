@@ -6,7 +6,7 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    Experiences
+    Esperienze Lavorative
   </h2>
 
   {% for experience in experiences %}
@@ -26,7 +26,7 @@
     {% if experience.details %}
     <div class="details">
         {% for item in experience.details %}
-        <p>&#9642; {{ item.text }} </p>
+        <p style="margin: 0;">• {{ item.text }} </p>
         {% endfor %}
     </div><!--//details-->
     {% endif %}

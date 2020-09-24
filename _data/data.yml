@@ -8,8 +8,13 @@ sidebar:
 
     # Profile information
     name: Maria McGlade Segovia
+<<<<<<< HEAD
     tagline: International Business and French
     avatar: profile_pic.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+=======
+    tagline: Gestione Aziendale e Lingua Francese
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+>>>>>>> 92b2656a4282698c35e6007a15fbde294dfbf5bb
 
     # Sidebar links
     email: maria.mcglade@outlook.com
@@ -51,26 +56,21 @@ sidebar:
 career-profile:
     title: Profilo Professionale
     summary: |
-      Business Management student with proven academic knowdlege in project and operations management and 
-      marketing through group and individual projects. Hands on experience in coding and CAD. Managed live social media campaigns and events.
-    
+      Studente di Gestione Aziendale presso la Napier University di Edimburgo, dove mi appassiono di project management, marketing e operations. Esperienza pratica in disegno CAD/CAM, programmazione e analisi dati. Parlo inglese e spagnolo da madrelingua, francese a livello professionale.
       
-
-
-
 education:
-    - degree: Laurea Triennale [ing. BoA], Gestione Aziendale e Lingua Francese
+    - degree: Bachelor of Arts, Gestione Aziendale e Lingua Francese
       university: Edinburgh Napier University
       time: 2017 - 2021
       details:
-        - text: Passione per il Project Management siluppata dirigendo numerosi gruppi di lavoro.
-        - text: Progettazione di numerose campagne marketing online rivolte ad aziende locali, in grado di migliorare i KPIs monitorati.
-        - text: Applicazione di principi di Project Management e Strategia d'Impresa in un progetto di consulenza per un'azienda esterna.
-        - text: Studio approfondito della lingua Francese, sia in ambito lavorativo che letterario.
+        - text: Passione per il project management siluppata dirigendo numerosi gruppi di lavoro.
+        - text: Campagne marketing online rivolte ad aziende locali, in grado di migliorare i KPIs monitorati.
+        - text: Progetto di consulenza strategica per un'azienda esterna.
+        - text: Studio approfondito della lingua francese, sia in ambito lavorativo che letterario.
         - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi.
       
     - degree: Diploma in Scienze Sociali
-      university: Colegio Sagrado Corazon "Las Esclavas"(Fundación Spìnola)
+      university: Colegio Sagrado Corazon "Las Esclavas" (Fundación Spìnola)
       time: 2014 - 2016
       details:
         - text: Focus particolare in Economia ed Analisi Matematica applicate alle Scienze Sociali.
@@ -83,30 +83,30 @@ experiences:
       details:
         - text: Catena locale del settore alberghiero e della ristorazione.
         - text: Progettazione e gestione delle campagne sui principali canali social - Instagram e Facebook.
-        - test: Gestione di iniziative ed eventi ad-hoc mirati ad aumentare l'engagement con particolari gruppi del contesto sociale locale.
-        - text: Conseguito i target di fatturato, mantenendo un atteggiamento positivo coi clienti e imparando a gestire situaizioni di stress.
-        - text: Sviluppo di capacità comunicative e di negoziazione sia all'interno del team sia verso l'esterno.
+        - text: Gestione di eventi ad-hoc mirati ad aumentare l'engagement di particolari gruppi target.
+        - text: Conseguito i target di fatturato, con atteggiamento positivo e gestendo situaizioni di stress.
+        - text: Sviluppo di capacità comunicative e di negoziazione.
     - role: Insegnante di Inglese
       time: 2016 - 2017
       company: Academia Innova SL, Madrid
       details: 
         - text: Insegnante privata di lingua inglese a persone di ogni età e contesto culturale.
-        - text: Aumento nella partecipazione degli studenti attraverso modalità di indegnamento alternative, tra cui giochi di ruolo.
+        - text: Aumento nella partecipazione degli studenti attraverso modalità di indegnamento alternative.
         - text: Creazione di piani di studio personalizzati basati sulle necessità individuali delli studenti.
    
 certifications:
     title: Certificazioni
     assignments:
       - title: Analyze Data with Python Skill Path (Codacademy)
-        link: "#https://miamcgs.github.io/certifications/analyze_data_with_python_skill_path.pdf"
+        link: "https://miamcgs.github.io/certifications/analyze_data_with_python_skill_path.pdf"
         tagline: "Analisi di dati con Jupyter Notebook e le librerie Pandas, Numpy, Matplotlib e Scipy."
 
       - title: CAD and Digital Manufacturing Specialization (Coursera)
-        link: "#https://miamcgs.github.io/certifications/cad_and_digital_manufacturing_specialisation.pdf"
-        tagline: "Percorso online incentrato sull'innovazione di prodotto e sul digital manufacturing attraverso il software CAD/CAM/CAE Autodesk® Fusion 360™."
+        link: "https://miamcgs.github.io/certifications/cad_and_digital_manufacturing_specialisation.pdf"
+        tagline: "Percorso online incentrato sull'innovazione di prodotto e sul digital manufacturing attraverso il software Autodesk® Fusion 360™."
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Competenze
 
     toolset:
 
@@ -117,11 +117,11 @@ skills:
         level: 85%
 
       - name: Python 
-        level: 80%
+        level: 60%
 
       - name: Adobe CC
-        level: 75%
+        level: 55%
         
 
 footer: >
-    Creato con il <i class="fas fa-heart"></i> da Maria
+    Creato da Maria McGlade Segovia
