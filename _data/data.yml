@@ -52,43 +52,41 @@ sidebar:
 career-profile:
     title: Profilo Professionale
     summary: |
-      Studente di Gestione Aziendale presso la Napier University di Edimburgo, dove mi appassiono di project management, marketing e operations. Esperienza pratica in disegno CAD/CAM, programmazione e analisi dati. Parlo inglese e spagnolo da madrelingua, francese a livello professionale.
+      Studentessa di Gestione Aziendale presso la Napier University (Edimburgo), dove frequento corsi di project management, marketing e operations. Esperienza pratica in disegno CAD/CAM, programmazione e analisi dati. Parlo inglese e spagnolo da madrelingua, francese a livello professionale e italiano.
       
 education:
-    - degree: Bachelor of Arts, Gestione Aziendale e Lingua Francese
-      university: Edinburgh Napier University
+    - degree: Laurea Breve, Gestione Aziendale e Lingua Francese
+      university: Napier University, Edimburgo
       time: 2017 - 2021
       details:
-        - text: Passione per il project management siluppata dirigendo numerosi gruppi di lavoro.
-        - text: Campagne marketing online rivolte ad aziende locali, in grado di migliorare i KPIs monitorati.
-        - text: Progetto di consulenza strategica per un'azienda esterna.
-        - text: Studio approfondito della lingua francese, sia in ambito lavorativo che letterario.
-        - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi.
+        - text: Passione per il project management siluppata dirigendo numerosi gruppi di lavoro
+        - text: Gestione di campagne marketing online per aziende locali, con miglioramento dei KPIs monitorati
+        - text: Progetto di consulenza strategica per un'azienda
+        - text: Studio approfondito della lingua francese, sia in ambito lavorativo che letterario
+        - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi
       
     - degree: Diploma in Scienze Sociali
       university: Colegio Sagrado Corazon "Las Esclavas" (Fundación Spìnola)
       time: 2014 - 2016
       details:
-        - text: Focus particolare in Economia ed Analisi Matematica applicate alle Scienze Sociali.
-        - text: Iscritta a corsi facoltativi di Filosofia.
+        - text: Focus particolare in Economia ed Analisi Matematica applicate alle Scienze Sociali
 
 experiences:
     - role: Cameriera e Responsabile Social Media
       time: 2018 - 2020
-      company: Montpeliers Ltd., Edinburgh
+      company: Montpeliers Ltd., Edimburgo
       details:
-        - text: Catena locale del settore alberghiero e della ristorazione.
-        - text: Progettazione e gestione delle campagne sui principali canali social - Instagram e Facebook.
-        - text: Gestione di eventi ad-hoc mirati ad aumentare l'engagement di particolari gruppi target.
-        - text: Conseguito i target di fatturato, con atteggiamento positivo e gestendo situaizioni di stress.
-        - text: Sviluppo di capacità comunicative e di negoziazione.
+        - text: Progettazione e gestione delle campagne sui principali canali social - Instagram e Facebook
+        - text: Gestione di eventi ad-hoc mirati ad aumentare l'engagement di particolari gruppi target
+        - text: Conseguimento dei target di fatturato, con atteggiamento positivo e gestendo situaizioni di stress
+        - text: Sviluppo di capacità comunicative e di negoziazione
     - role: Insegnante di Inglese
       time: 2016 - 2017
       company: Academia Innova SL, Madrid
       details: 
-        - text: Insegnante privata di lingua inglese a persone di ogni età e contesto culturale.
-        - text: Aumento nella partecipazione degli studenti attraverso modalità di indegnamento alternative.
-        - text: Creazione di piani di studio personalizzati basati sulle necessità individuali delli studenti.
+        - text: Insegnante privata di lingua inglese a persone di ogni età e contesto culturale
+        - text: Aumento nella partecipazione degli studenti attraverso modalità di insegnamento alternative
+        - text: Creazione di piani di studio personalizzati basati sulle necessità individuali degli studenti
    
 certifications:
     title: Certificazioni
