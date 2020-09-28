@@ -90,12 +90,12 @@ experiences:
         - text: Aumento nella partecipazione degli studenti attraverso modalità di insegnamento alternative
         - text: Creazione di piani di studio personalizzati basati sulle necessità individuali degli studenti
   
-life_experiences:
-    - role: Dummy
-      time: 2018 - 2020
-      company: Dummy
-      details:
-        - text: Dummy
+# life_experiences:
+#     - role: Dummy
+#       time: 2018 - 2020
+#       company: Dummy
+#       details:
+#         - text: Dummy
 
 certifications:
     title: Certificazioni
