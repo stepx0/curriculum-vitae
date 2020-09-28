@@ -12,6 +12,8 @@ sidebar:
     tagline: Gestione Aziendale e Lingua Francese
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
+    pdf_version: "https://github.com/miamcgs/certifications/blob/master/analyze_data_with_python_skill_path.pdf"
+
     # Sidebar links
     email: maria.mcglade@outlook.com
     phone: # with spaces
