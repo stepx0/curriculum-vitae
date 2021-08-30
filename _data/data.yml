@@ -57,7 +57,7 @@ career-profile:
       TODO
       
 education:
-    - degree: "Master of Science, Artificial Intelligence (GPA: 76/100)"
+    - degree: "MSc in Artificial Intelligence (GPA: 76/100)"
       university: University of Edinburgh
       time: Sept. 2019 - Aug. 2021
       details:
@@ -72,7 +72,7 @@ GitHub: alessandrofacchin/msc-project"
       details:
         - text: Team leader in four projects with international teams, touching different aspects of finance, management and operations
 
-    - degree: "Bachelor of Science, Management Engineering (110 cum laude/110)"
+    - degree: "BSc in Industrial Engineering (110 cum laude/110)"
       university: Politecnico di Milano
       time: Sept. 2015 - July 2018
       details:
@@ -147,7 +147,6 @@ skills:
         level: 60%
       - name: Adobe CC
         level: 55%
-        
 
 footer: >
     By Alessandro Facchin
