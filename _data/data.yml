@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Alessandro Facchin
 
-    tagline: Gestione Aziendale e Lingua Francese
+    tagline: FinTech | Artificial Intelligence | Neuroscience
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     pdf_version: "curriculum_alessandro_italian.pdf"
@@ -17,10 +17,10 @@ sidebar:
     # Sidebar links
     email: alessandro.facchin@outlook.com
     phone: # with spaces
-    website: alessandrofacchin.github.io/curriculum-vitae/ #do not add http://
-    linkedin: alessandro-faccchin
-    github: miamcgs
-    telegram: # add your nickname without '@' sign
+    website: alefacchin.com/ #do not add http://
+    linkedin: alessandrofacchin
+    github: alessandrofacchin
+    telegram: AlessandroFacchin # add your nickname without '@' sign
     gitlab:
     bitbucket:
     twitter: # with the '@' in front
@@ -29,66 +29,84 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: Inglese
-        level: Madrelingua
+      - idiom: Italian
+        level: Native
 
-      - idiom: Spagnolo
-        level: Madrelingua
+      - idiom: English
+        level: Master (C2)
         
-      - idiom: Francese
-        level: Professionale
+      - idiom: Spanish
+        level: Fluent (C1)
         
-      - idiom: Italiano
-        level: Elementare
+      - idiom: German
+        level: Elementary (A2)
         
     interests:
-      - item: Design del Prodotto
+      - item: Brain Computer Interfaces
+        link: 
+
+      - item: Football, Skying and Tennis
         link:
 
-      - item: Viaggiare
-        link:
-
-      - item: Scrittura Creativa
+      - item: Blockchain and Digital Assets
         link:
 
 career-profile:
-    title: Profilo Professionale
+    title: About Me
     summary: |
-      Studentessa di Gestione Aziendale presso la Napier University (Edimburgo), dove frequento corsi di project management, marketing e operations. Esperienza pratica in disegno CAD/CAM, programmazione e analisi dati. Parlo inglese e spagnolo da madrelingua, francese a livello professionale e italiano.
+      TODO
       
 education:
-    - degree: Bachelor of Arts in Gestione Aziendale e Lingua Francese
-      university: Napier University, Edimburgo
-      time: 2017 - 2021
+    - degree: "Master of Science, Artificial Intelligence (GPA: 76/100)"
+      university: University of Edinburgh
+      time: Sept. 2019 - Aug. 2021
       details:
-        - text: Passione per il project management siluppata dirigendo numerosi gruppi di lavoro
-        - text: Gestione di campagne marketing online per aziende locali, con miglioramento dei KPIs monitorati
-        - text: Progetto di consulenza strategica per un'azienda
-        - text: Studio approfondito della lingua francese, sia in ambito lavorativo che letterario
-        - text: Sviluppo di competenze trasversali, tra cui Gestione dei Sistemi Logistici e Produttivi
-      
-    - degree: Diploma in Scienze Sociali
-      university: Colegio Sagrado Corazon "Las Esclavas" (Fundación Spìnola), Malaga
-      time: 2014 - 2016
+        - text: "Fully sponsored by Aberdeen Standard Investment"
+        - text: "Machine Learning topics: Deep Learning, Pattern Recognition, Reinforcement Learning, Autonomous Agents"
+        - text: "Bioinformatics topics: Computational Cognitive Neuroscience, Neural Computation, Genetic and Evolutionary Algorithms"
+        - text: "Thesis: Modelling Latent Variables Related to Behaviour in Neural Populations (using VAEs, RNNs and primates M1 data).
+GitHub: alessandrofacchin/msc-project"
+    - degree: "Exchange Student, School of Economics and Management (GPA: 3.9/4)"
+      university: Tsinghua University, Beijing
+      time: Sept. 2017 - Feb. 2018
       details:
-        - text: Focus particolare in Economia ed Analisi Matematica applicate alle Scienze Sociali
+        - text: Team leader in four projects with international teams, touching different aspects of finance, management and operations
 
-experiences:
-    - role: Cameriera e Responsabile Social Media
-      time: 2018 - 2020
-      company: Montpeliers Ltd., Edimburgo
+    - degree: "Bachelor of Science, Management Engineering (110 cum laude/110)"
+      university: Politecnico di Milano
+      time: Sept. 2015 - July 2018
       details:
-        - text: Progettazione e gestione delle campagne sui principali canali social - Instagram e Facebook
-        - text: Gestione di eventi ad-hoc mirati ad aumentare l'engagement di particolari gruppi target
-        - text: Conseguimento dei target di fatturato, con atteggiamento positivo e gestendo situaizioni di stress
-        - text: Sviluppo di capacità comunicative e di negoziazione
-    - role: Insegnante di Inglese
-      time: 2016 - 2017
-      company: Academia Innova SL, Madrid
+        - text: Awarded with the scholarship Best Freshmen of Academic Year 2015/2016
+        - text: "Topics: Supply Chain Management, Manufacturing, Business Management, Project Management, IT Management"
+
+experiences:    
+    - role: Investment Director, Ethos and Portfolio Management
+      time: Aug. 2020 - Today
+      company: Prometheus Technologies
       details: 
-        - text: Insegnante privata di lingua inglese a persone di ogni età e contesto culturale
-        - text: Aumento nella partecipazione degli studenti attraverso modalità di insegnamento alternative
-        - text: Creazione di piani di studio personalizzati basati sulle necessità individuali degli studenti
+        - text: Fintech startup based in California, aimed at democratizing personalised asset-management
+        - text: Design and implementation of the Ethos engine, generating tailor-made portfolios based on the values of each customer
+        - text: Design of the proprietary Portfolio Management platform, a scalable framework based on blockchain and digital-assets
+        - text: Managing remotely a diverse group of experienced investment professionals and developers
+    - role: Investment Analyst, Multi Asset & Investment Innovation
+      time: June 2018 - Aug. 2020
+      company: abrdn (ex Aberdeen Standard Investments)
+      details: 
+        - text: Scenario stress-tests, dimensionality analysis and risk hedging on multi-asset portfolios worth £200bn
+        - text: Data pipeline and automated execution for a suite of macro systematic machine-learning funds
+        - text: Design of retail and institutional multi-asset funds with market-leading financial performances and enhanced ESG properties
+        - text: Maintenance of an ecosystem of microservices within a cloud-based containerized infrastructure
+    - role: Intern, Lending Team
+      time: Feb. 2018 - May 2018
+      company: Credimi
+      details: 
+        - text: Design and development of Credimi’s Accounting Rating, estimating one year probability of default with ensembles of trees
+        - text: Systematic financial, anti-fraud and anti-money laundering analysis on small and medium enterprises
+    - role: Intern, ERP Project
+      time: Jan. 2017 - July 2017
+      company: MIP Politecnico di Milano
+      details: 
+        - text: Business analyst in the cross-functional project team in charge of implementing SAP S/4 HANA
   
 # life_experiences:
 #     - role: Dummy
@@ -98,18 +116,28 @@ experiences:
 #         - text: Dummy
 
 certifications:
-    title: Certificazioni
+    title: Certifications
     assignments:
-      - title: Analyze Data with Python Skill Path (Codacademy)
-        link: "https://miamcgs.github.io/certifications/analyze_data_with_python_skill_path.pdf"
-        tagline: "Analisi di dati con Jupyter Notebook e le librerie Pandas, Numpy, Matplotlib e Scipy."
+      - title: Investment Management Certificate (IMC)
+        credentials: Verify Credentials
+        issuer: CFA UK
+        link: "https://www.youracclaim.com/badges/b74f9962-d9d7-4fd4-8423-49325f6a77b2?source=curriculum_vitae"
+        tagline: "Entry-level qualification into the UK investment profession."
 
-      - title: CAD and Digital Manufacturing Specialization (Coursera)
-        link: "https://miamcgs.github.io/certifications/cad_and_digital_manufacturing_specialisation.pdf"
-        tagline: "Percorso online incentrato sull'innovazione di prodotto e sul digital manufacturing attraverso il software Autodesk® Fusion 360™."
+      - title: "IELTS Academic (Band Score: 8.0)"
+        credentials: 1900002943FACA814A
+        issuer: IELTS Official
+        link: 
+        tagline: "Excellent ability to listen, read, write and speak in English."
+
+      - title: "Deploying with Netlify and Heroku Course"
+        issuer: Codecademy
+        credentials: Verify Credentials
+        link: https://www.codecademy.com/profiles/AlessandroFacchin/certificates/6156c9bebf9046929b95afa8fa67ffd5
+        tagline: "Web deployment through scalable cloud platforms."
 
 skills:
-    title: Competenze
+    title: Skills
 
     toolset:
 
@@ -127,4 +155,4 @@ skills:
         
 
 footer: >
-    Creato da Alessandro Facchin
+    By Alessandro Facchin
