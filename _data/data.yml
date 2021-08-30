@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Alessandro Facchin
 
-    tagline: FinTech | Artificial Intelligence | Neuroscience
+    tagline: Artificial Intelligence Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     pdf_version: "curriculum_alessandro_italian.pdf"
@@ -17,7 +17,7 @@ sidebar:
     # Sidebar links
     email: alessandro.facchin@outlook.com
     phone: # with spaces
-    website: alefacchin.com/ #do not add http://
+    website: alefacchin.com #do not add http://
     linkedin: alessandrofacchin
     github: alessandrofacchin
     telegram: AlessandroFacchin # add your nickname without '@' sign
@@ -33,22 +33,22 @@ sidebar:
         level: Native
 
       - idiom: English
-        level: Master (C2)
+        level: C2
         
       - idiom: Spanish
-        level: Fluent (C1)
+        level: C1
         
       - idiom: German
-        level: Elementary (A2)
+        level: A2
         
     interests:
+      - item: Football
+        link:
+
       - item: Brain Computer Interfaces
         link: 
 
-      - item: Football, Skying and Tennis
-        link:
-
-      - item: Blockchain and Digital Assets
+      - item: Blockchain
         link:
 
 career-profile:
@@ -66,7 +66,7 @@ education:
         - text: "Bioinformatics topics: Computational Cognitive Neuroscience, Neural Computation, Genetic and Evolutionary Algorithms"
         - text: "Thesis: Modelling Latent Variables Related to Behaviour in Neural Populations (using VAEs, RNNs and primates M1 data).
 GitHub: alessandrofacchin/msc-project"
-    - degree: "Exchange Student, School of Economics and Management (GPA: 3.9/4)"
+    - degree: "Exchange, Economics and Management (GPA: 3.9/4)"
       university: Tsinghua University, Beijing
       time: Sept. 2017 - Feb. 2018
       details:
@@ -138,18 +138,13 @@ certifications:
 
 skills:
     title: Skills
-
     toolset:
-
       - name: Microsoft Office
         level: 90%
-
       - name: Autodesk Fusion 360
         level: 85%
-
       - name: Python 
         level: 60%
-
       - name: Adobe CC
         level: 55%
         
