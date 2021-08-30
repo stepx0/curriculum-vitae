@@ -7,18 +7,18 @@ sidebar:
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Maria McGlade Segovia
+    name: Alessandro Facchin
 
     tagline: Gestione Aziendale e Lingua Francese
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    pdf_version: "curriculum_maria_italian.pdf"
+    pdf_version: "curriculum_alessandro_italian.pdf"
 
     # Sidebar links
-    email: maria.mcglade@outlook.com
+    email: alessandro.facchin@outlook.com
     phone: # with spaces
     website: miamcgs.github.io/online-cv #do not add http://
-    linkedin: maria-mcglade-segovia
+    linkedin: alessandro-faccchin
     github: miamcgs
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -127,4 +127,4 @@ skills:
         
 
 footer: >
-    Creato da Maria McGlade Segovia
+    Creato da Alessandro Facchin
