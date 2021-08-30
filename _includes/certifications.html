@@ -22,6 +22,7 @@
       <span class="certification-title">
         {% if certification.link %}
         <a href="{{ certification.link }}" target="_blank">{{ certification.title }}</a>
+        <text>{{ certification.issuer }}</text>
         {% else %}
         {{ certification.title }}
         {% endif %}
