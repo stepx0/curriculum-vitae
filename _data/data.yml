@@ -138,18 +138,13 @@ certifications:
 
 skills:
     title: Skills
-
     toolset:
-
       - name: Microsoft Office
         level: 90%
-
       - name: Autodesk Fusion 360
         level: 85%
-
       - name: Python 
         level: 60%
-
       - name: Adobe CC
         level: 55%
         
