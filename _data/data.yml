@@ -64,7 +64,7 @@ education:
       time: Sept. 2019 - Aug. 2021
       details:
         - text: "Fully sponsored, obtained while working full time"
-        - text: "Machine learning courses: deep learning, pattern recognition, reinforcement learning, autonomous agents"
+        - text: "Core courses: machine learning, deep learning, reinforcement learning, autonomous agents"
         - text: "Bio-inspired courses: computational cognitive neuroscience, neural computation, evolutionary algos"
         - file: "assets/documents/dissertation.pdf"
           text: "Thesis: modelling latent variables related to behaviour in neural populations"
@@ -82,7 +82,7 @@ education:
       time: Sept. 2015 - July 2018
       details:
         - text: Awarded with the scholarship Best Freshmen of Academic Year 2015/2016
-        - text: "Core courses: supply chain management, manufacturing, business management, project management"
+        - text: "Core courses: supply chain management, manufacturing, project management"
 
 experiences:    
     - role: Investment Director
