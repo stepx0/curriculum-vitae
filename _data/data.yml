@@ -133,13 +133,13 @@ certifications:
         link: "https://www.youracclaim.com/badges/b74f9962-d9d7-4fd4-8423-49325f6a77b2?source=curriculum_vitae"
         tagline: "Entry-level qualification into the UK investment profession."
 
-      - title: "IELTS Academic (Band Score: 8.0)"
+      - title: "IELTS Academic (band score: 8.0)"
         credentials: "ID: 1900002943FACA814A"
-        issuer: International English Language Testing System
+        issuer: IELTS
         file: ielts.pdf
         tagline: "Excellent ability to listen, read, write and speak in English."
 
-      - title: "Deploying with Netlify and Heroku Course"
+      - title: "Deploying with Netlify and Heroku"
         issuer: Codecademy
         credentials: Verify Credentials
         link: https://www.codecademy.com/profiles/AlessandroFacchin/certificates/6156c9bebf9046929b95afa8fa67ffd5
