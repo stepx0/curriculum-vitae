@@ -124,6 +124,7 @@ p {
             color: rgba(256, 256, 256, 0.6);
             font-weight: 500;
             margin-bottom: 0px;
+            text-align: right;
         }
     }
     .languages-container {
@@ -187,13 +188,30 @@ p {
         margin-bottom: 0;
         font-weight: 500;
     }
+    .certification-title {
+        color: $text-color;
+        font-size: 15px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .time {
         position: absolute;
         right: 0;
         top: 0;
         color: $text-grey;
+        font-size: 12px;
+        text-align: right;
     }
-    .company, .university {
+    .company {
+        margin-bottom: 10px;
+        color: $text-grey;
+    }
+    .certification-text {
+        margin-bottom: 10px;
+        color: $text-grey;
+        font-size: 13px;
+    }
+    .university {
         margin-bottom: 10px;
         color: $text-grey;
     }

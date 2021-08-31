@@ -19,18 +19,17 @@
   {% for certification in certifications.assignments %}
     <div class="item">
 
-      <span class="certification-title">
-        {% if certification.link %}
-        <a href="{{ certification.link }}" target="_blank">{{ certification.title }}</a>
-        <text>{{ certification.issuer }}</text>
-        {% else %}
-        {{ certification.title }}
-        {% endif %}
+      <span class="certification-item">
+        <div class="certification-title">{{ certification.title }}</div>
+        <div class="certification-text"> {{ certification.issuer }} | 
+          {% if certification.link %}
+            <a href="{{ certification.link }}" target="_blank">{{ certification.credentials }}</a>
+          {% else %}
+            {{ certification.credentials }} | <a href="{{ site.baseurl }}/assets/documents/{{ certification.file }}" 
+              download="ielts.pdf">Download</a>
+          {% endif %}
+        </div>
       </span>
-
-      {% if certification.tagline %}
-      - <span class="certification-tagline">{{ certification.tagline }}</span>
-      {% endif %}
 
     </div><!--//item-->
   {% endfor %}

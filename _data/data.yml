@@ -16,7 +16,7 @@ sidebar:
 
     # Sidebar links
     email: alessandro.facchin@outlook.com
-    phone: # with spaces
+    phone: +39 348 6488652 # with spaces
     website: alefacchin.com #do not add http://
     linkedin: alessandrofacchin
     github: alessandrofacchin
@@ -42,13 +42,13 @@ sidebar:
         level: A2
         
     interests:
-      - item: Football
-        link:
-
       - item: Brain Computer Interfaces
         link: 
 
       - item: Blockchain
+        link:
+
+      - item: Football
         link:
 
 career-profile:
@@ -64,14 +64,14 @@ education:
       time: Sept. 2019 - Aug. 2021
       details:
         - text: "Fully sponsored, obtained while working full time"
-        - text: "Machine learning: Deep Learning, Pattern Recognition, Reinforcement Learning, Autonomous Agents"
-        - text: "Bioinformatics: Computational Cognitive Neuroscience, Neural Computation, Evolutionary Algorithms"
-        - file: "assets/documents/dissertation.pdf"
-          text: "Thesis: Modelling Latent Variables Related to Behaviour in Neural Populations"
+        - text: "Core courses: machine learning, deep learning, reinforcement learning, autonomous agents"
+        - text: "Bio-inspired courses: computational cognitive neuroscience, neural computation, evolutionary algos"
+        - file: "dissertation.pdf"
+          text: "Thesis: modelling latent variables related to behaviour in neural populations"
     - degree: "Economics and Management"
       title: Exchange Student
       grade: "GPA: 3.9/4"
-      university: Tsinghua University, Beijing
+      university: Tsinghua University
       time: Sept. 2017 - Feb. 2018
       details:
         - text: Team leader in four projects with international teams, touching finance, management and operations
@@ -82,11 +82,11 @@ education:
       time: Sept. 2015 - July 2018
       details:
         - text: Awarded with the scholarship Best Freshmen of Academic Year 2015/2016
-        - text: "Topics: Supply Chain Management, Manufacturing, Business Management, Project Management"
+        - text: "Core courses: supply chain management, manufacturing, project management"
 
 experiences:    
     - role: Investment Director
-      department: Ethos and Portfolio Management
+      department: Ethos & Portfolio Management
       time: Aug. 2020 - Today
       company: Prometheus Technologies
       details: 
@@ -95,27 +95,27 @@ experiences:
         - text: Design of the proprietary Portfolio Management platform, a scalable framework based on digital-assets
         - text: Managing remotely a diverse group of experienced investment professionals and developers
     - role: Investment Analyst
-      department: Multi Asset & Investment Innovation
+      department: Multi-Asset Solutions
       time: June 2018 - Aug. 2020
-      company: abrdn (ex Aberdeen Standard Investments)
+      company: Aberdeen Standard Investments
       details: 
         - text: Scenario stress-tests, dimensionality analysis and risk hedging on multi-asset portfolios worth £200bn
         - text: Data pipeline and automated execution for a suite of macro systematic machine-learning funds
         - text: Design of retail and institutional multi-asset funds with enhanced ESG properties
         - text: Maintenance of an ecosystem of microservices within a cloud-based containerized infrastructure
-    - role: Intern
+    - role: Business Intern
       department: Lending Team
       time: Feb. 2018 - May 2018
       company: Credimi
       details: 
         - text: Design of Credimi’s Accounting Rating, estimating probability of defaults with ensembles of trees
         - text: Systematic financial, anti-fraud and anti-money laundering analysis on small and medium enterprises
-    - role: international
+    - role: Tech Intern
       department: ERP Project
       time: Jan. 2017 - July 2017
       company: MIP Politecnico di Milano
       details: 
-        - text: Business analyst in the cross-functional project team in charge of implementing SAP S/4 HANA
+        - text: Business analyst in the cross-functional project team in charge of implementing SAP
   
 # life_experiences:
 #     - role: Dummy
@@ -128,20 +128,20 @@ certifications:
     title: Certifications
     assignments:
       - title: Investment Management Certificate (IMC)
-        credentials: Verify Credentials
-        issuer: CFA UK
+        credentials: Verify
+        issuer: Chartered Financial Analyst Institute UK
         link: "https://www.youracclaim.com/badges/b74f9962-d9d7-4fd4-8423-49325f6a77b2?source=curriculum_vitae"
         tagline: "Entry-level qualification into the UK investment profession."
 
-      - title: "IELTS Academic (Band Score: 8.0)"
-        credentials: 1900002943FACA814A
-        issuer: IELTS Official
-        link: 
+      - title: "IELTS Academic (band score: 8.0)"
+        credentials: "ID: 1900002943FACA814A"
+        issuer: IELTS
+        file: ielts.pdf
         tagline: "Excellent ability to listen, read, write and speak in English."
 
-      - title: "Deploying with Netlify and Heroku Course"
+      - title: "Deploying with Netlify and Heroku"
         issuer: Codecademy
-        credentials: Verify Credentials
+        credentials: Verify
         link: https://www.codecademy.com/profiles/AlessandroFacchin/certificates/6156c9bebf9046929b95afa8fa67ffd5
         tagline: "Web deployment through scalable cloud platforms."
 
@@ -149,23 +149,33 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python Full Stack
+      - name: Numpy, Pandas, Scipy
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Tensorflow, Pytorch
+        level: 96%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Data Visualization (Plotly, D3.js)
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Cloud Infrastructure (GCP)
+        level: 92%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: JavaScript, R, Matlab
+        level: 90%
+
+      - name: SQL, Neo4j, InfluxDB, Redis 
+        level: 88%
+
+      - name: Microsoft Office
+        level: 85%
+        
+      - name: Docker, Kubernetes, Kafka
+        level: 80%
+
+      - name: RESTful, GraphQL
+        level: 65%
+
 
 footer: >
     By Alessandro Facchin

@@ -33,30 +33,24 @@
       <div class="meta">
 
         <div class="upper-row">
-          <div>
-            <h3 class="degree">{{ graduation.degree }}</h3>
-            <br>
-            <h4>{{ graduation.title }}</h4>
+          <div class="col-sm-9" style="padding: 0;">
+            <div class="degree">{{ graduation.university }}</div>
+            <div class="university">{{ graduation.title }}, {{ graduation.degree }}</div>
           </div>
-          <div>
-            <div class="time">{{ graduation.time }}</div>
-            <br>
-            <div class="grade">{{ graduation.grade }}</div>
+          <div class="col-sm-3" style="padding: 0;">
+            <div class="time">{{ graduation.time }} <br> {{ graduation.grade }}</div>
           </div>
         </div><!--//upper-row-->
-
-        <div class="university">{{ graduation.university }}</div>
       </div><!--//meta-->
 
       {% if graduation.details %}
       <div class="details">
           {% for item in graduation.details %}
-          <p style="margin: 0; font-size: 13px; ">• {{ item.text }} </p>
-          {% if item.file %}
-          <a href="{{ site.baseurl }}/assets/documents/{{ item.file }}" 
-            download="dissertation_alessandro_facchin.pdf" 
-            style="margin-top: 2rem;">Download PDF</a>
-          {% endif %}
+          <p style="margin: 0; font-size: 13px; ">• {{ item.text }} {% if item.file %}
+            (<a href="{{ site.baseurl }}/assets/documents/{{ item.file }}" 
+              download="dissertation_alessandro_facchin.pdf">download</a>)
+            {% endif %}</p>
+          
           {% endfor %}
       </div><!--//details-->
       {% endif %}
