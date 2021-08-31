@@ -153,25 +153,28 @@ skills:
         level: 98%
 
       - name: Tensorflow, Pytorch
-        level: 95%
-
-      - name: Google Cloud Platform
-        level: 95%
+        level: 96%
 
       - name: Data Viz (Plotly, D3.js)
+        level: 95%
+
+      - name: Cloud Infra (GCP)
+        level: 92%
+
+      - name: JavaScript, R, Matlab
         level: 90%
 
-      - name: Matlab
-        level: 90%
-        
-      - name: Docker, Kubernetes, Kafka
-        level: 85%
+      - name: SQL, Neo4j, InfluxDB, Redis 
+        level: 88%
 
       - name: Microsoft Office
         level: 85%
+        
+      - name: Docker, Kubernetes, Kafka
+        level: 80%
 
       - name: RESTful, GraphQL
-        level: 80%
+        level: 65%
 
 
 footer: >
