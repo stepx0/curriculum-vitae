@@ -66,7 +66,8 @@ education:
         - text: "Fully sponsored, obtained while working full time"
         - text: "Machine learning: Deep Learning, Pattern Recognition, Reinforcement Learning, Autonomous Agents"
         - text: "Bioinformatics: Computational Cognitive Neuroscience, Neural Computation, Evolutionary Algorithms"
-        - text: "Thesis: Modelling Latent Variables Related to Behaviour in Neural Populations (using VAEs, RNNs and primates M1 data)"
+        - file: "assets/documents/dissertation.pdf"
+          text: "Thesis: Modelling Latent Variables Related to Behaviour in Neural Populations"
     - degree: "Economics and Management"
       title: Exchange Student
       grade: "GPA: 3.9/4"
@@ -90,7 +91,7 @@ experiences:
       company: Prometheus Technologies
       details: 
         - text: Fintech startup based in California, aimed at democratizing personalised asset-management
-        - text: Design and implementation of the Ethos engine, generating custom portfolios based on customers' values
+        - text: Design and implementation of the Ethos engine, generating portfolios based on customers' values
         - text: Design of the proprietary Portfolio Management platform, a scalable framework based on digital-assets
         - text: Managing remotely a diverse group of experienced investment professionals and developers
     - role: Investment Analyst

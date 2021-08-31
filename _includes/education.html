@@ -52,6 +52,11 @@
       <div class="details">
           {% for item in graduation.details %}
           <p style="margin: 0; font-size: 13px; ">• {{ item.text }} </p>
+          {% if item.file %}
+          <a href="{{ site.baseurl }}/assets/documents/{{ item.file }}" 
+            download="dissertation_alessandro_facchin.pdf" 
+            style="margin-top: 2rem;">Download PDF</a>
+          {% endif %}
           {% endfor %}
       </div><!--//details-->
       {% endif %}
