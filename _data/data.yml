@@ -66,7 +66,7 @@ education:
         - text: "Fully sponsored, obtained while working full time"
         - text: "Core courses: machine learning, deep learning, reinforcement learning, autonomous agents"
         - text: "Bio-inspired courses: computational cognitive neuroscience, neural computation, evolutionary algos"
-        - file: "assets/documents/dissertation.pdf"
+        - file: "dissertation.pdf"
           text: "Thesis: modelling latent variables related to behaviour in neural populations"
     - degree: "Economics and Management"
       title: Exchange Student
