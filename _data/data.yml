@@ -155,7 +155,7 @@ skills:
       - name: Tensorflow, Pytorch
         level: 96%
 
-      - name: Data Viz (Plotly, D3.js)
+      - name: Data Visualization (Plotly, D3.js)
         level: 95%
 
       - name: Cloud Infrastructure (GCP)
