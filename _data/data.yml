@@ -129,13 +129,13 @@ certifications:
     assignments:
       - title: Investment Management Certificate (IMC)
         credentials: Verify Credentials
-        issuer: CFA UK
+        issuer: Chartered Financial Analyst Institute UK
         link: "https://www.youracclaim.com/badges/b74f9962-d9d7-4fd4-8423-49325f6a77b2?source=curriculum_vitae"
         tagline: "Entry-level qualification into the UK investment profession."
 
       - title: "IELTS Academic (Band Score: 8.0)"
         credentials: "ID: 1900002943FACA814A"
-        issuer: IELTS Official
+        issuer: International English Language Testing System
         file: ielts.pdf
         tagline: "Excellent ability to listen, read, write and speak in English."
 

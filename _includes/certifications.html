@@ -20,14 +20,15 @@
     <div class="item">
 
       <span class="certification-title">
-        <h4> {{ certification.title }}</h4>
-        <div class="university"> {{ certification.issuer }}</div>
-        {% if certification.link %}
-          <a href="{{ certification.link }}" target="_blank">{{ certification.credentials }}</a>
-        {% else %}
-          <p>{{ certification.credentials }} (<a href="{{ site.baseurl }}/assets/documents/{{ certification.file }}" 
-            download="ielts.pdf">download</a>)</p>
-        {% endif %}
+        <div class="degree"> {{ certification.title }}</h4>
+        <div class="university"> {{ certification.issuer }} - 
+          {% if certification.link %}
+            <a href="{{ certification.link }}" target="_blank">{{ certification.credentials }}</a>
+          {% else %}
+            {{ certification.credentials }} (<a href="{{ site.baseurl }}/assets/documents/{{ certification.file }}" 
+              download="ielts.pdf">download</a>)
+          {% endif %}
+        </div>
       </span>
 
       {% if certification.tagline %}
