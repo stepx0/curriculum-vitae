@@ -20,11 +20,13 @@
     <div class="item">
 
       <span class="certification-title">
+        <h4> {{ certification.title }}</h4>
+        <div class="university"> {{ certification.issuer }}</div>
         {% if certification.link %}
-        <a href="{{ certification.link }}" target="_blank">{{ certification.title }}</a>
-        <text>{{ certification.issuer }}</text>
+          <a href="{{ certification.link }}" target="_blank">{{ certification.credentials }}</a>
         {% else %}
-        {{ certification.title }}
+          <p>{{ certification.credentials }} (<a href="{{ site.baseurl }}/assets/documents/{{ item.file }}" 
+            download="dissertation_alessandro_facchin.pdf">download</a>)</p>
         {% endif %}
       </span>
 
