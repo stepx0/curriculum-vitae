@@ -21,7 +21,7 @@
 
       <span class="certification-title">
         <div class="degree"> {{ certification.title }}</h4>
-        <div class="university"> {{ certification.issuer }} - 
+        <div class="university"> {{ certification.issuer }} | 
           {% if certification.link %}
             <a href="{{ certification.link }}" target="_blank">{{ certification.credentials }}</a>
           {% else %}
@@ -30,10 +30,6 @@
           {% endif %}
         </div>
       </span>
-
-      {% if certification.tagline %}
-      - <span class="certification-tagline">{{ certification.tagline }}</span>
-      {% endif %}
 
     </div><!--//item-->
   {% endfor %}
