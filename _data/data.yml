@@ -128,7 +128,7 @@ certifications:
     title: Certifications
     assignments:
       - title: Investment Management Certificate (IMC)
-        credentials: Verify Credentials
+        credentials: Verify
         issuer: Chartered Financial Analyst Institute UK
         link: "https://www.youracclaim.com/badges/b74f9962-d9d7-4fd4-8423-49325f6a77b2?source=curriculum_vitae"
         tagline: "Entry-level qualification into the UK investment profession."
@@ -141,7 +141,7 @@ certifications:
 
       - title: "Deploying with Netlify and Heroku"
         issuer: Codecademy
-        credentials: Verify Credentials
+        credentials: Verify
         link: https://www.codecademy.com/profiles/AlessandroFacchin/certificates/6156c9bebf9046929b95afa8fa67ffd5
         tagline: "Web deployment through scalable cloud platforms."
 

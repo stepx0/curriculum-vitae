@@ -25,8 +25,8 @@
           {% if certification.link %}
             <a href="{{ certification.link }}" target="_blank">{{ certification.credentials }}</a>
           {% else %}
-            {{ certification.credentials }} (<a href="{{ site.baseurl }}/assets/documents/{{ certification.file }}" 
-              download="ielts.pdf">download</a>)
+            {{ certification.credentials }} | <a href="{{ site.baseurl }}/assets/documents/{{ certification.file }}" 
+              download="ielts.pdf">Download</a>
           {% endif %}
         </div>
       </span>
