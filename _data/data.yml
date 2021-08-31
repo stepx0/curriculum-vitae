@@ -149,23 +149,30 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python Full Stack
+      - name: Numpy, Pandas, Scipy
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Tensorflow, Pytorch
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Google Cloud Platform
+        level: 95%
+
+      - name: Data Viz (Plotly, D3.js)
+        level: 90%
+
+      - name: Matlab
+        level: 90%
+        
+      - name: Docker, Kubernetes, Kafka
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Microsoft Office
+        level: 85%
+
+      - name: RESTful, GraphQL
+        level: 80%
+
 
 footer: >
     By Alessandro Facchin
