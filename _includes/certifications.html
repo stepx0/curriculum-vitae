@@ -20,7 +20,7 @@
     <div class="item">
 
       <span class="certification-title">
-        <div class="university"> {{ certification.title }}</div>
+        {{ certification.title }}
         <div class="university"> {{ certification.issuer }} | 
           {% if certification.link %}
             <a href="{{ certification.link }}" target="_blank">{{ certification.credentials }}</a>
