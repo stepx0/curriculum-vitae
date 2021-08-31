@@ -64,10 +64,10 @@ education:
       time: Sept. 2019 - Aug. 2021
       details:
         - text: "Fully sponsored, obtained while working full time"
-        - text: "Machine learning: Deep Learning, Pattern Recognition, Reinforcement Learning, Autonomous Agents"
-        - text: "Bioinformatics: Computational Cognitive Neuroscience, Neural Computation, Evolutionary Algorithms"
+        - text: "Machine learning courses: deep learning, pattern recognition, reinforcement learning, autonomous agents"
+        - text: "Bio-inspired courses: computational cognitive neuroscience, neural computation, evolutionary algos"
         - file: "assets/documents/dissertation.pdf"
-          text: "Thesis: Modelling Latent Variables Related to Behaviour in Neural Populations"
+          text: "Thesis: modelling latent variables related to behaviour in neural populations"
     - degree: "Economics and Management"
       title: Exchange Student
       grade: "GPA: 3.9/4"
@@ -82,7 +82,7 @@ education:
       time: Sept. 2015 - July 2018
       details:
         - text: Awarded with the scholarship Best Freshmen of Academic Year 2015/2016
-        - text: "Topics: Supply Chain Management, Manufacturing, Business Management, Project Management"
+        - text: "Core courses: supply chain management, manufacturing, business management, project management"
 
 experiences:    
     - role: Investment Director

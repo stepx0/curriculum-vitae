@@ -192,8 +192,13 @@ p {
         right: 0;
         top: 0;
         color: $text-grey;
+        font-size: 12px;
     }
-    .company, .university {
+    .company {
+        margin-bottom: 10px;
+        color: $text-grey;
+    }
+    .university {
         margin-bottom: 10px;
         color: $text-grey;
     }
