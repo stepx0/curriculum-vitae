@@ -17,7 +17,23 @@
     .main-wrapper .time {
         position: static;
         display: block;
-        margin-top: 5px;
+        margin-top: 0px; 
+        margin-bottom: 8px;
+        text-align: left;
+    }
+
+    .main-wrapper .company {
+        margin-bottom: 0px;
+    }
+
+    .main-wrapper .university {
+        margin-bottom: 0px;
+        color: $text-color-secondary;
+    }
+
+    .main-wrapper .company {
+        margin-bottom: 0px;
+        color: $text-color-secondary;
     }
 
     .main-wrapper .upper-row {
@@ -29,6 +45,27 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+    .right-col-titles {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+        float: left;
+    }
+    
+    .left-col-titles {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding: 0;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+        float: left;
+    }
 
 }
 
@@ -49,7 +86,6 @@
         position: relative;
         top: 1px;
     }
-
 
 }
 

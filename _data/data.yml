@@ -17,7 +17,7 @@ sidebar:
     # Sidebar links
     email: alessandro.facchin@outlook.com
     phone: +39 348 6488652 # with spaces
-    website: alefacchin.com #do not add http://
+    website: # alefacchin.com #do not add http://
     linkedin: alessandrofacchin
     github: alessandrofacchin
     telegram: AlessandroFacchin # add your nickname without '@' sign
@@ -48,7 +48,10 @@ sidebar:
       - item: Blockchain
         link:
 
-      - item: Football
+      - item: Football & Skiing
+        link:
+
+      - item: Mixology
         link:
 
 career-profile:
