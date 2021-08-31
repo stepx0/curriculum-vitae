@@ -34,14 +34,11 @@
 
         <div class="upper-row">
           <div class="col-sm-6">
-            <h3 class="degree">{{ graduation.degree }}</h3>
-            <br>
-            <h4>{{ graduation.title }}</h4>
+            <div class="university">{{ graduation.university }}</div>
+            <h3 class="degree">{{ graduation.degree }}, {{ graduation.title }}</h3>
           </div>
           <div class="col-sm-6">
-            <div class="time">{{ graduation.time }}</div>
-            <br>
-            <div class="grade">{{ graduation.grade }}</div>
+            <div class="time">{{ graduation.time }} <br> {{ graduation.grade }}</div>
           </div>
         </div><!--//upper-row-->
 
