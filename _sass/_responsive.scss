@@ -18,21 +18,28 @@
         position: static;
         display: block;
         margin-top: 0px; 
-        margin-bottom: 8px;
+        margin-bottom: 12px;
         text-align: left;
-    }
-
-    .main-wrapper .company {
-        margin-bottom: 0px;
+        font-size: 14px;
     }
 
     .main-wrapper .university {
         margin-bottom: 0px;
+        font-size: 18px;
+        font-weight: bold;
+        color: $text-color-secondary;
+    }
+
+    .main-wrapper .certification-title {
+        font-size: 16px;
+        font-weight: bold;
         color: $text-color-secondary;
     }
 
     .main-wrapper .company {
         margin-bottom: 0px;
+        font-weight: 500;
+        font-size: 16px;
         color: $text-color-secondary;
     }
 
@@ -40,6 +47,15 @@
         margin-bottom: 0;
     }
 
+    .main-wrapper .job-title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .main-wrapper .degree {
+        font-size: 18px;
+        font-weight: bold;
+    }
 
 }
 /* Small devices (tablets, 768px and up) */
