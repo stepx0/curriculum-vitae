@@ -19,8 +19,8 @@
   {% for certification in certifications.assignments %}
     <div class="item">
 
-      <span class="certification-title">
-        {{ certification.title }}
+      <span class="certification-item">
+        <div class="certification-title">{{ certification.title }}</div>
         <div class="university"> {{ certification.issuer }} | 
           {% if certification.link %}
             <a href="{{ certification.link }}" target="_blank">{{ certification.credentials }}</a>
