@@ -69,7 +69,7 @@ education:
     - degree: "Economics and Management"
       title: Exchange Student
       grade: "GPA: 3.9/4"
-      university: Tsinghua University
+      university: Tsinghua University, Beijing
       time: Sept. 2017 - Feb. 2018
       details:
         - text: Team leader in four projects with international teams, touching finance, management and operations
@@ -89,17 +89,17 @@ experiences:
       company: Prometheus Technologies
       details: 
         - text: Fintech startup based in California, aimed at democratizing personalised asset-management
+        - text: Managing remotely a group of three investment professionals and developers
         - text: Design and implementation of the Ethos engine, generating portfolios based on customers' values
         - text: Design of the Portfolio Management platform, a scalable framework based on digital-assets
-        - text: Managing remotely a diverse group of experienced investment professionals and developers
     - role: Investment Analyst
       department: Multi-Asset Solutions
       time: June 2018 - Aug. 2020
       company: Aberdeen Standard Investments
       details: 
         - text: Scenario stress-tests, dimensionality analysis and risk hedging on multi-asset portfolios worth £200bn
+        - text: Design of retail and institutional multi-asset funds worth €250M, paying between 1% and 2% annual fees
         - text: Data pipeline and automated execution for a suite of macro systematic machine-learning funds
-        - text: Design of retail and institutional multi-asset funds with enhanced ESG properties
         - text: Maintenance of an ecosystem of microservices within a cloud-based containerized infrastructure
     - role: Business Intern
       department: Lending Team
@@ -144,7 +144,7 @@ certifications:
         tagline: "Web deployment through scalable cloud platforms."
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Technicall Skills
 
     toolset:
       - name: Numpy, Pandas, Scipy
@@ -174,6 +174,27 @@ skills:
       - name: RESTful, GraphQL
         level: 65%
 
+soft-skills:
+    title: Soft Skills
+
+    toolset:
+      - name: Curiosity
+        level: 98%
+
+      - name: Multicultural Adaptability
+        level: 95%
+
+      - name: Design Thinking
+        level: 90%
+
+      - name: Reliability Under Stress
+        level: 85%
+
+      - name: Conflict Management
+        level: 75%
+      
+      - name: Project Coordination
+        level: 63%
 
 footer: >
     By Alessandro Facchin
