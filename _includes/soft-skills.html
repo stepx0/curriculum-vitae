@@ -12,13 +12,13 @@
 
   <div class="skillset">
 
-    {% for skill in sskills.toolset %}
+    {% for sskill in sskills.toolset %}
     <div class="item">
 
-      <h3 class="level-title">{{ sskills.name }}</h3>
+      <h3 class="level-title">{{ sskill.name }}</h3>
 
       <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        <div class="level-bar-inner" data-level="{{ sskill.level }}">
         </div>
       </div><!--//level-bar-->
 
