@@ -51,8 +51,7 @@
             (<a href="{{ site.baseurl }}/assets/documents/{{ item.file }}" 
               download="dissertation_alessandro_facchin.pdf">PDF</a>
               {% if item.github %}
-              | <a href="{{ item.github }}">GitHub</a>
-              {% endif %})
+              | <a href="{{ item.github }}" target=”_blank”>GitHub</a>{% endif %})
             {% endif %}</p>
           
           {% endfor %}
