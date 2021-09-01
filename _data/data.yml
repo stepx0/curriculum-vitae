@@ -67,6 +67,7 @@ education:
         - text: "Core courses: machine learning, deep learning, reinforcement learning, autonomous agents"
         - text: "Bio-inspired courses: computational cognitive neuroscience, neural computation, evolutionary algos"
         - file: "dissertation.pdf"
+          github: "https://github.com/alessandrofacchin/msc-project"
           text: "Thesis: modelling latent variables related to behaviour in neural populations"
     - degree: "Economics and Management"
       title: Exchange Student
