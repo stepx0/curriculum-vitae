@@ -147,23 +147,33 @@ skills:
     title: Technicall Skills
 
     toolset:
-      - name: Numpy, Pandas, Scipy
+      - name: Numeric & ML Python
         level: 98%
 
-      - name: Tensorflow, Pytorch
+      - name: Curiosity
+        level: 98%
+        soft: true
+
+      - name: Full Stack Python
         level: 96%
 
-      - name: Data Visualization (Plotly, D3.js)
+      - name: Multicultural Adaptability
         level: 95%
+        soft: true
 
-      - name: Cloud Infrastructure (GCP)
+      - name: Cloud Infra, SQL, NoSQL
         level: 92%
+
+      - name: Design Thinking
+        level: 92%
+        soft: true
 
       - name: JavaScript, R, Matlab
         level: 90%
 
-      - name: SQL, Neo4j, InfluxDB, Redis 
-        level: 88%
+      - name: Reliability Under Stress
+        level: 85%
+        soft: true
 
       - name: Microsoft Office
         level: 85%
@@ -171,30 +181,10 @@ skills:
       - name: Docker, Kubernetes, Kafka
         level: 80%
 
-      - name: RESTful, GraphQL
-        level: 65%
-
-soft-skills:
-    title: Soft Skills
-
-    toolset:
-      - name: Curiosity
-        level: 98%
-
-      - name: Multicultural Adaptability
-        level: 95%
-
-      - name: Design Thinking
-        level: 90%
-
-      - name: Reliability Under Stress
-        level: 85%
-
-      - name: Conflict Management
-        level: 75%
-      
       - name: Project Coordination
-        level: 63%
+        level: 75%
+        soft: true
+        
 
 footer: >
     By Alessandro Facchin

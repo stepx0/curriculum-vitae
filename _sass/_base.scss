@@ -270,6 +270,10 @@ p {
     }
     .level-bar-inner {
         height: 12px;
+        background: darken($theme-color, 30%);
+    }
+    .level-bar-inner-soft {
+        height: 12px;
         background: lighten($theme-color, 15%);
     }
 }

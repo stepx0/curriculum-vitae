@@ -18,8 +18,13 @@
       <h3 class="level-title">{{ skill.name }}</h3>
 
       <div class="level-bar">
+        {% if skill.soft}
+        <div class="level-bar-inner-soft" data-level="{{ skill.level }}">
+        </div>
+        {% else %}
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
+        {% endif %}
       </div><!--//level-bar-->
 
     </div><!--//item-->
