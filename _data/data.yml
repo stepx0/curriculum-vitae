@@ -149,41 +149,47 @@ skills:
     toolset:
       - name: Numeric & ML Python
         level: 98%
+        soft: False
 
       - name: Curiosity
         level: 98%
-        soft: true
+        soft: True
 
       - name: Full Stack Python
         level: 96%
+        soft: False
 
       - name: Multicultural Adaptability
         level: 95%
-        soft: true
+        soft: True
 
       - name: Cloud Infra, SQL, NoSQL
         level: 92%
+        soft: False
 
       - name: Design Thinking
         level: 92%
-        soft: true
+        soft: True
 
       - name: JavaScript, R, Matlab
         level: 90%
+        soft: False
 
       - name: Reliability Under Stress
         level: 85%
-        soft: true
+        soft: True
 
       - name: Microsoft Office
         level: 85%
+        soft: False
         
       - name: Docker, Kubernetes, Kafka
         level: 80%
+        soft: False
 
       - name: Project Coordination
         level: 75%
-        soft: true
+        soft: True
         
 
 footer: >
