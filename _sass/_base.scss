@@ -36,6 +36,10 @@ p {
     @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
 }
 
+.footer .copyright {
+    padding-bottom: 10px;
+}
+
 .sidebar-wrapper {
     background: $theme-color;
     position: absolute;
@@ -270,10 +274,12 @@ p {
     }
     .level-bar-inner {
         height: 12px;
+        opacity: 50%;
         background: darken($theme-color, 10%);
     }
     .level-bar-inner-soft {
         height: 12px;
+        opacity: 50%;
         background: lighten($theme-color, 15%);
     }
 }
@@ -340,4 +346,7 @@ p {
 .btn-three:hover::after {
   opacity: 1;
   transform: scale(1,1);
+}
+.btn-three:hover {
+  color: #fff;
 }

@@ -57,6 +57,18 @@
         font-weight: bold;
     }
 
+    .skillset .level-title {
+        float: left;
+        width: 220px;
+        margin-bottom: 0;
+    }
+
+    .skillset .level-bar {
+        margin-left: 220px;
+        // width: 100%;
+        position: relative;
+        top: 1px;
+    }
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -83,26 +95,23 @@
         float: left;
     }
 
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
     .skillset .level-title {
-        display: inline-block;
         float: left;
-        width: 40%;
+        width: 220px;
         margin-bottom: 0;
     }
 
     .skillset .level-bar {
-        display: inline-block;
-        width: 60%;
-        float: left;
+        margin-left: 220px;
+        // width: 100%;
         position: relative;
         top: 1px;
     }
 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 }
 
 /* Large devices (large desktops, 1200px and up) */
