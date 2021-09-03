@@ -98,7 +98,7 @@ experiences:
       company: Aberdeen Standard Investments
       details: 
         - text: Scenario stress-tests, dimensionality analysis and risk hedging on multi-asset portfolios worth £200bn
-        - text: Design of retail and institutional multi-asset funds worth €250M, paying between 1% and 2% annual fees
+        - text: Design of retail and institutional multi-asset funds worth €250M, paying on average 1.5% annual fees
         - text: Data pipeline and automated execution for a suite of macro systematic machine-learning funds
         - text: Maintenance of an ecosystem of microservices within a cloud-based containerized infrastructure
     - role: Business Intern
