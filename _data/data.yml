@@ -88,8 +88,8 @@ experiences:
         - text: Fintech startup based in California, aimed at democratizing personalised asset-management
         - text: Building cloud solutions on Google Cloud Platform through Kubernetes and Kafka (Confluent)
         - text: Creation of a systematic platform to generate portfolios based on customers' values (direct indexing)
-        - text: Managing remotely a group of three investment professionals and developers
-        - text: Design and management of an event-driven portfolio management system capable of fractionalizing assets
+        - text: Managing remotely a group of three investment professionals and developers during COVID
+        - text: Design and management of an event-driven portfolio management system supporting fractional assets
     - role: Investment Analyst
       department: Multi-Asset Solutions
       time: June 2018 - Aug. 2020
