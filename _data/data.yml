@@ -86,9 +86,9 @@ experiences:
       company: Prometheus Technologies
       details: 
         - text: Fintech startup based in California, aimed at democratizing personalised asset-management
-        - text: Building cloud solutions on Google Cloud Platform through Kubernetes and Kafka (Confluent)
+        - text: Design of cloud solutions on Google Cloud Platform involving Kubernetes and Kafka
         - text: Creation of a systematic platform to generate portfolios based on customers' values (direct indexing)
-        - text: Managing remotely a team of investment professionals and developers during COVID
+        - text: Remote management of a team of investment professionals and developers during COVID
         - text: Design and management of an event-driven portfolio management system supporting fractional assets
     - role: Investment Analyst
       department: Multi-Asset Solutions
