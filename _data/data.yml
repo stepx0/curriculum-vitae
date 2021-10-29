@@ -61,6 +61,8 @@ education:
       time: Sept. 2019 - Aug. 2021
       details:
         - text: "Fully sponsored, obtained while working full time"
+        - text: Worked on various ML solutions involving Python, TensorFlow and PyTorch throughout the degree
+          github: "https://github.com/alessandrofacchin/"
         - text: "Core courses: machine learning, deep learning, reinforcement learning, autonomous agents"
         - text: "Bio-inspired courses: computational cognitive neuroscience, neural computation, evolutionary algos"
         - file: "dissertation.pdf"
