@@ -101,7 +101,7 @@ experiences:
         - text: Design of retail and institutional multi-asset funds worth €250M, paying on average 1.5% annual fees
         - text: Data pipeline and automated execution for a suite of macro systematic machine-learning funds
         - text: Scenario stress-tests, dimensionality analysis and risk hedging on multi-asset portfolios worth £200bn
-        - text: Maintenance of an ecosystem of microservices within a cloud-based containerized infrastructure (Azure)
+        - text: Maintenance of an ecosystem of microservices within a cloud environment (Azure)
     - role: Business Intern
       department: Lending Team
       time: Feb. 2018 - May 2018
