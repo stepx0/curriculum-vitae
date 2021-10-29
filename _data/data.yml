@@ -56,7 +56,7 @@ career-profile:
 education:
     - degree: "Artificial Intelligence"
       title: Master of Science, with Distinction
-      grade: "GPA: 76/100"
+      grade: "GPA: 81/100"
       university: University of Edinburgh
       time: Sept. 2019 - Aug. 2021
       details:
@@ -71,8 +71,6 @@ education:
       grade: "GPA: 3.9/4"
       university: Tsinghua University, Beijing
       time: Sept. 2017 - Feb. 2018
-      details:
-        - text: Team leader in four projects with international teams, touching finance, management and operations
     - degree: "Industrial Engineering"
       title: Bachelor of Science
       grade: 110 cum laude/110
@@ -80,7 +78,6 @@ education:
       time: Sept. 2015 - July 2018
       details:
         - text: Awarded with the scholarship Best Freshmen of Academic Year 2015/2016
-        - text: "Core courses: supply chain management, manufacturing, project management"
 
 experiences:    
     - role: Investment Director
@@ -89,17 +86,19 @@ experiences:
       company: Prometheus Technologies
       details: 
         - text: Fintech startup based in California, aimed at democratizing personalised asset-management
+        - text: Building cloud solutions on Google Cloud Platform through Kubernetes and Kafka (Confluent)
+        - text: Creation of a systematic platform to generate portfolios based on customers' values (direct indexing)
         - text: Managing remotely a group of three investment professionals and developers
-        - text: Design and implementation of the Ethos engine, generating portfolios based on customers' values
-        - text: Design of the Portfolio Management platform, a scalable framework based on digital-assets
+        - text: Design and management of an event-driven portfolio management system capable of fractionalizing assets
     - role: Investment Analyst
       department: Multi-Asset Solutions
       time: June 2018 - Aug. 2020
       company: Aberdeen Standard Investments
       details: 
-        - text: Scenario stress-tests, dimensionality analysis and risk hedging on multi-asset portfolios worth £200bn
+        - text: Automated ESG screening on a range of indices, a previously error-prone and labor intensive taks
         - text: Design of retail and institutional multi-asset funds worth €250M, paying on average 1.5% annual fees
         - text: Data pipeline and automated execution for a suite of macro systematic machine-learning funds
+        - text: Scenario stress-tests, dimensionality analysis and risk hedging on multi-asset portfolios worth £200bn
         - text: Maintenance of an ecosystem of microservices within a cloud-based containerized infrastructure
     - role: Business Intern
       department: Lending Team
@@ -115,13 +114,6 @@ experiences:
       details: 
         - text: Business analyst in the cross-functional project team in charge of implementing SAP
   
-# life_experiences:
-#     - role: Dummy
-#       time: 2018 - 2020
-#       company: Dummy
-#       details:
-#         - text: Dummy
-
 certifications:
     title: Certifications
     assignments:
