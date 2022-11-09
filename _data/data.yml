@@ -99,8 +99,8 @@ experiences:
         - text: Ownership of Credimi's credit scoring model, pricing model and quant risk monitoring
         - text: Design and implementation of the company's first data-driven credit scoring algorithm
         - text: Design and development of a backtesting platform using first-party and third-party public data
-        - text: Automated Markov matrix analysis to monitor and project default trends
-        - text: Introduction of data orchestration tool (Dagster) and data quality tool (Great Expectations)
+        - text: Automated Markov matrix analysis to monitor default trends and extrapolate future performances
+        - text: Introduction of a data orchestration tool (Dagster) and a data quality tool (Great Expectations)
     - role: Investment Director
       department: Ethos & Portfolio Management
       time: Aug. 2020 - Jan. 2022
