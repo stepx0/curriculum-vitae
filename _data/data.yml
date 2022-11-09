@@ -89,7 +89,7 @@ experiences:
         - text: Overseeing Credimi's Data Team, including two data scientists and a data analyst
         - text: Responsible for the delivery, tech lead and people management of the team
         - text: Leader of cross-functional team for the setup of a new Customer Data Platform
-        - text: In charge of the integration of PDS2 data into Credimi's workflows
+        - text: In charge of the integration of PDS2 data into Credimi's workflows (credit scoring, antifraud)
         - text: Owner of Credimi's data lakehouse (Dremio) importing from DBs, Salesforce, Kafka, S3
     - role: Machine Learning Engineer
       department: Data Team
