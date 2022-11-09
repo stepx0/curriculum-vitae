@@ -60,10 +60,8 @@ education:
       university: University of Edinburgh
       time: Sept. 2019 - Aug. 2021
       details:
-        - text: "Fully sponsored, obtained while working full time"
+        - text: "Fully sponsored, obtained while working full-time"
         - text: Worked on various machine learning solutions involving Python, TensorFlow and PyTorch
-        - text: "Core courses: machine learning, deep learning, reinforcement learning, autonomous agents"
-        - text: "Bio-inspired courses: computational cognitive neuroscience, neural computation, evolutionary algos"
         - file: "dissertation.pdf"
           github: "https://github.com/alessandrofacchin/msc-project"
           text: "Thesis: modelling latent variables related to behaviour in neural populations"
