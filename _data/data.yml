@@ -179,7 +179,7 @@ skills:
         level: 92%
         soft: False
 
-      - name: SQL, Mongo, Redis, InfluxDB
+      - name: SQL, Mongo, Redis, Neo4j
         level: 90%
         soft: False
 
