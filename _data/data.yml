@@ -179,7 +179,7 @@ skills:
         level: 92%
         soft: False
 
-      - name: Databases (SQL, Mongo, Redis, InfluxDB)
+      - name: SQL, Mongo, Redis, InfluxDB
         level: 90%
         soft: False
 
@@ -195,7 +195,7 @@ skills:
         level: 88%
         soft: False
 
-      - name: Cloud Infra (Terraform, AWS, GCP)
+      - name: Terraform, AWS, GCP
         level: 85%
         soft: False
 
