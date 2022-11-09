@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Alessandro Facchin
 
-    tagline: Artificial Intelligence Engineer
+    tagline: Hands-on Head of Data
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     pdf_version: "curriculum_alessandro_italian.pdf"
@@ -80,11 +80,31 @@ education:
       details:
         - text: Awarded with the scholarship Best Freshmen of Academic Year 2015/2016
 
-experiences:    
+experiences:
+    - role: Head of Data
+      department: Data Team
+      time: Oct. 2022 - Today
+      company: Credimi SpA
+      details: 
+        - text: Overseeing Credimi's Data Team, including two data scientists and a data analyst
+        - text: Responsible for the delivery, tech lead and people management of the team
+        - text: Leader of cross-functional team for the setup of a new Customer Data Platform
+        - text: In charge of the integration of PDS2 data into Credimi's workflows
+        - text: Owner of Credimi's data lakehouse (Dremio) importing from DBs, Salesforce, Kafka, S3
+    - role: Machine Learning Engineer
+      department: Data Team
+      time: Jan. 2022 - Oct. 2022
+      company: Credimi SpA
+      details: 
+        - text: Ownership of Credimi's credit scoring model, pricing model and quant risk monitoring
+        - text: Design and implementation of the company's first data-driven credit scoring algorithm
+        - text: Design and development of a backtesting platform using first-party and third-party public data
+        - text: Automated Markov matrix analysis to monitor and project default trends
+        - text: Introduction of data orchestration tool (Dagster) and data quality tool (Great Expectations)
     - role: Investment Director
       department: Ethos & Portfolio Management
-      time: Aug. 2020 - Today
-      company: Prometheus Technologies
+      time: Aug. 2020 - Jan. 2022
+      company: Prometheus Technologies Inc
       details: 
         - text: Fintech startup based in California, aimed at democratizing personalised asset-management
         - text: Design and implementation of cloud solutions (Google Cloud Platform) involving Kubernetes and Kafka
@@ -144,52 +164,54 @@ certifications:
 
 skills:
     title: Skills & Competences
-
     toolset:
+      - name: Data Product Management
+        level: 98%
+        soft: True
+
       - name: Numeric & ML Python
         level: 98%
         soft: False
 
-      - name: Curiosity
-        level: 98%
+      - name: Project Coordination
+        level: 94%
         soft: True
 
       - name: Full Stack Python
-        level: 96%
-        soft: False
-
-      - name: Multicultural Adaptability
-        level: 95%
-        soft: True
-
-      - name: Cloud Infra, SQL, NoSQL
         level: 92%
         soft: False
 
-      - name: Design Thinking
-        level: 92%
-        soft: True
-
-      - name: JavaScript, R, Matlab
+      - name: Databases (SQL, Mongo, Redis, InfluxDB)
         level: 90%
+        soft: False
+
+      - name: Data Management Tools
+        level: 90%
+        soft: False
+
+      - name: Quant Risk
+        level: 90%
+        soft: True
+        
+      - name: Docker, Kubernetes, Kafka
+        level: 88%
+        soft: False
+
+      - name: Cloud Infra (Terraform, AWS, GCP)
+        level: 85%
         soft: False
 
       - name: Reliability Under Stress
         level: 85%
         soft: True
 
-      - name: Microsoft Office
-        level: 85%
-        soft: False
-        
-      - name: Docker, Kubernetes, Kafka
+      - name: JavaScript, R, Matlab
         level: 80%
         soft: False
 
-      - name: Project Coordination
-        level: 75%
-        soft: True
-        
+      - name: Microsoft Office
+        level: 80%
+        soft: False
 
 footer: >
     By Alessandro Facchin
