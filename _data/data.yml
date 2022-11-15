@@ -7,20 +7,20 @@ sidebar:
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alessandro Facchin
+    name: Stefano Piasentin
 
-    tagline: Hands-on Head of Data
+    tagline: Mobile & Frontend Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    pdf_version: "curriculum_alessandro_italian.pdf"
+    pdf_version: "curriculum_stefano_italian.pdf"
 
     # Sidebar links
-    email: alessandro.facchin@outlook.com
-    phone: +39 348 6488652 # with spaces
-    website: # alefacchin.com #do not add http://
-    linkedin: alessandrofacchin
-    github: alessandrofacchin
-    telegram: AlessandroFacchin # add your nickname without '@' sign
+    email: piasentin.st@gmail.com
+    phone: +39 345 0834344 # with spaces
+    website: #do not add http://
+    linkedin: stefanopiasentin
+    github: StePiasentin
+    telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
     twitter: # with the '@' in front
@@ -32,20 +32,23 @@ sidebar:
       - idiom: Italian
         level: Native
 
-      - idiom: English
-        level: C2
-        
       - idiom: Spanish
+        level: Native
+        
+      - idiom: English
         level: C1
 
     interests:
-      - item: Hiker & hitch-hiker
+      - item: Sports
         link: 
 
-      - item: Digital assets investor
+      - item: Digital assets
         link:
 
-      - item: Football player
+      - item: Environment & Sustainability
+        link:
+
+      - item: Gardening
         link:
 
 career-profile:
@@ -54,162 +57,93 @@ career-profile:
       TODO
       
 education:
-    - degree: "Artificial Intelligence"
-      title: Master of Science, with Distinction
-      grade: "GPA: 81/100"
-      university: University of Edinburgh
-      time: Sept. 2019 - Aug. 2021
-      details:
-        - text: "Fully sponsored, obtained while working full-time"
-        - text: Worked on various machine learning solutions involving Python, TensorFlow and PyTorch
-        - file: "dissertation.pdf"
-          github: "https://github.com/alessandrofacchin/msc-project"
-          text: "Thesis: modelling latent variables related to behaviour in neural populations"
-    - degree: "Economics and Management"
-      title: Exchange Student
-      grade: "GPA: 3.9/4"
-      university: Tsinghua University, Beijing
-      time: Sept. 2017 - Feb. 2018
-    - degree: "Industrial Engineering"
-      title: Bachelor of Science
-      grade: 110 cum laude/110
-      university: Politecnico di Milano
-      time: Sept. 2015 - July 2018
-      details:
-        - text: Awarded with the scholarship Best Freshmen of Academic Year 2015/2016
+    - degree: "5th EQF level"
+      title: Mobile App Engineer
+      university: ITS Alto Adriatico
+      time: Sep. 2017 - Aug. 2019
+    - degree: "IT Engineering"
+      title: Information Technology
+      university: Università di Padova
+      time: Oct. 2015 - July 2017
 
 experiences:
-    - role: Head of Data
-      department: Data Team
-      time: Oct. 2022 - Today
+    - role: Frontend Software Engineer
+      department: Frontend Team
+      time: June. 2022 - Today
       company: Credimi SpA
       details: 
-        - text: Overseeing Credimi's Data Team, including two data scientists and a data analyst
-        - text: Responsible for the delivery, tech lead and people management of the team
-        - text: Leader of cross-functional team for the setup of a new Customer Data Platform
-        - text: In charge of the integration of PDS2 data into Credimi's workflows (credit scoring, antifraud)
-        - text: Owner of Credimi's data lakehouse (Dremio) importing from DBs, Salesforce, Kafka, S3
-    - role: Machine Learning Engineer
-      department: Data Team
-      time: Jan. 2022 - Oct. 2022
-      company: Credimi SpA
+        - text: Implemented part of Credimi's new customer application flow
+        - text: Technical support for customer issues
+    - role: Mobile Developer
+      department: Mobile Team
+      time: July. 2019 - June 2022
+      company: Aleapro Snc
       details: 
-        - text: Ownership of Credimi's credit scoring model, pricing model and quant risk monitoring
-        - text: Design and implementation of the company's first data-driven credit scoring algorithm
-        - text: Design and development of a backtesting platform using first-party and third-party public data
-        - text: Automated Markov matrix analysis to monitor default trends and extrapolate future performances
-        - text: Introduction of a data orchestration tool (Dagster) and a data quality tool (Great Expectations)
-    - role: Investment Director
-      department: Ethos & Portfolio Management
-      time: Aug. 2020 - Jan. 2022
-      company: Prometheus Technologies Inc
-      details: 
-        - text: Fintech startup based in California, aimed at democratizing personalised asset-management
-        - text: Design and implementation of cloud solutions (Google Cloud Platform) involving Kubernetes and Kafka
-        - text: Creation of a systematic platform to generate portfolios based on customers' values (direct indexing)
-        - text: Remote management of a team of investment professionals and developers during COVID
-        - text: Design and management of an event-driven portfolio management system supporting fractional assets
-    - role: Investment Analyst
-      department: Multi-Asset Solutions
-      time: June 2018 - Aug. 2020
-      company: Aberdeen Standard Investments
-      details: 
-        - text: Automated ESG screening on a range of indices, a previously error-prone and labor intensive task
-        - text: Design of retail and institutional multi-asset funds worth €250M, paying on average 1.5% annual fees
-        - text: Data pipeline and automated execution for a suite of macro systematic machine-learning funds
-        - text: Scenario stress-tests, dimensionality analysis and risk hedging on multi-asset portfolios worth £200bn
-        - text: Maintenance of an ecosystem of microservices within a cloud environment (Azure)
-    - role: Business Intern
-      department: Lending Team
-      time: Feb. 2018 - May 2018
-      company: Credimi
-      details: 
-        - text: Design of Credimi’s Accounting Rating, estimating probability of defaults with ensembles of trees
-        - text: Systematic financial, anti-fraud and anti-money laundering analysis on small and medium enterprises
+        - text: Mobile app development, both native (Android, iOS) and cross-platform (Flutter)
+        - text: External partners technical support for mobile related issues
     - role: Tech Intern
-      department: ERP Project
-      time: Jan. 2017 - July 2017
-      company: MIP Politecnico di Milano
+      department: R&D Department
+      time: Mar. 2019 - May 2019
+      company: FIT Engineering Srl
       details: 
-        - text: Business analyst in the cross-functional project team in charge of implementing SAP
+        - text: Software developer in a team in charge of implementing an IoT communication system
+    - role: Tech Intern
+      department: Frontend Team
+      time: May 2018 - July 2018
+      company: Spider4Web
+      details: 
+        - text: Frontend developer
   
 certifications:
     title: Certifications
     assignments:
-      - title: Investment Management Certificate (IMC)
-        credentials: Verify
-        issuer: Chartered Financial Analyst Institute UK
-        link: "https://www.youracclaim.com/badges/b74f9962-d9d7-4fd4-8423-49325f6a77b2?source=curriculum_vitae"
-        tagline: "Entry-level qualification into the UK investment profession."
+      
+      #- title: "A"
+      #  issuer: A
+      #  credentials: Verify
+      #  link: https://a
+      #  tagline: "A"
 
-      - title: "Create and Manage Cloud Resources"
-        issuer: Google Cloud & Qwiklabs
-        credentials: Verify
-        link: https://www.qwiklabs.com/public_profiles/a1c95a50-d8bf-4bab-a711-00749f0aad1f/badges/1158187
-        tagline: "Orchestration, web servers, firewalls and load balancers in GCP."
-
-      - title: "Deploying with Netlify and Heroku"
-        issuer: Codecademy
-        credentials: Verify
-        link: https://www.codecademy.com/profiles/AlessandroFacchin/certificates/6156c9bebf9046929b95afa8fa67ffd5
-        tagline: "Web deployment through scalable cloud platforms."
-        
-      - title: "IELTS Academic (band score: 8.0)"
-        credentials: "ID: 1900002943FACA814A"
-        issuer: IELTS
+      - title: "MasterZ Blockchain & Digital Assets - 2nd Edition"
+        credentials: "Student ID: 12"
+        issuer: MasterZ
         file: ielts.pdf
-        tagline: "Excellent ability to listen, read, write and speak in English."
+        tagline: "Blockchain and Digital Assets"
 
 skills:
     title: Skills & Competences
     toolset:
-      - name: Data Product Management
-        level: 98%
+      - name: Mobile Development
+        level: 96%
         soft: True
 
-      - name: Numeric & ML Python
-        level: 98%
+      - name: Kotlin, Java, Dart
+        level: 95%
         soft: False
 
-      - name: Project Coordination
+      - name: Typescript, Javascript
         level: 94%
         soft: True
 
-      - name: Full Stack Python
-        level: 92%
+      - name: Web Development
+        level: 94%
         soft: False
 
-      - name: SQL, Mongo, Redis, Neo4j
-        level: 90%
-        soft: False
-
-      - name: Data Management Tools
-        level: 90%
-        soft: False
-
-      - name: Quant Risk
+      - name: Node.js, React, GraphQL
         level: 90%
         soft: True
-        
-      - name: Docker, Kubernetes, Kafka
+
+      - name: SQL, Mongo
+        level: 89%
+        soft: False
+
+      - name: Docker
         level: 88%
         soft: False
 
-      - name: Terraform, AWS, GCP
+      - name: Blockchain
         level: 85%
-        soft: False
-
-      - name: Reliability Under Stress
-        level: 85%
-        soft: True
-
-      - name: JavaScript, R, Matlab
-        level: 80%
-        soft: False
-
-      - name: Microsoft Office
-        level: 80%
         soft: False
 
 footer: >
-    By Alessandro Facchin
+    By Stefano Piasentin
