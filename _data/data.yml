@@ -9,10 +9,10 @@ sidebar:
     # Profile information
     name: Stefano Piasentin
 
-    tagline: Mobile & Frontend Developer
+    tagline: Mobile & Web Frontend Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    pdf_version: "curriculum_stefano_italian.pdf"
+    pdf_version: "curriculum_stefano.pdf"
 
     # Sidebar links
     email: piasentin.st@gmail.com
@@ -69,17 +69,17 @@ education:
 experiences:
     - role: Frontend Software Engineer
       department: Frontend Team
-      time: June. 2022 - Today
-      company: Credimi SpA
+      time: July 2022 - Today
+      company: Credimi Spa
       details: 
-        - text: Implemented part of Credimi's new customer application flow
+        - text: Implemented part of Credimi's new customer loan application flow
         - text: Technical support for customer issues
     - role: Mobile Developer
       department: Mobile Team
       time: July. 2019 - June 2022
       company: Aleapro Snc
       details: 
-        - text: Mobile app development, both native (Android, iOS) and cross-platform (Flutter)
+        - text: Mobile app development, both native (Android) and cross-platform (Flutter)
         - text: External partners technical support for mobile related issues
     - role: Tech Intern
       department: R&D Department
