@@ -3,7 +3,7 @@
 # Site Settings
 title: Stefano Piasentin
 url: 'https://github.com/StePiasentin'
-baseurl: '' #change it according to your repository name
+baseurl: '/curriculum-vitae' #change it according to your repository name
 description: Curriculum Vitae
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
