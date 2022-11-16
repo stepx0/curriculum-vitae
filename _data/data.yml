@@ -48,21 +48,18 @@ sidebar:
       - item: Environment & Sustainability
         link:
 
-      - item: Gardening
-        link:
-
 career-profile:
     title: About Me
     summary: |
       TODO
       
 education:
-    - degree: "5th EQF level"
-      title: Mobile App Engineer
+    - degree: "5th EQF degree diploma"
+      title: Mobile Development Engineer
       university: ITS Alto Adriatico
       time: Sep. 2017 - Aug. 2019
-    - degree: "IT Engineering"
-      title: Information Technology
+    - degree: "Engineering Bachelor"
+      title: Computer Engineering
       university: Università di Padova
       time: Oct. 2015 - July 2017
 
@@ -70,29 +67,44 @@ experiences:
     - role: Frontend Software Engineer
       department: Frontend Team
       time: July 2022 - Today
-      company: Credimi Spa
+      company: Credimi SpA
       details: 
-        - text: Implemented part of Credimi's new customer loan application flow
-        - text: Technical support for customer issues
+        - text: In charge of developing company’s website and products
+        - text: Implemented Credimi’s new customer loan application flow
+        - text: Managed cookie compliance policy for landing pages
+        - text: Worked on a new cookies integration for analytics purpose
+        - text: Worked on making maintainable and reusable web components
+        - text: Developed Credimi's new product page
     - role: Mobile Developer
       department: Mobile Team
       time: July. 2019 - June 2022
       company: Aleapro Snc
       details: 
-        - text: Mobile app development, both native (Android) and cross-platform (Flutter)
-        - text: External partners technical support for mobile related issues
+        - text: Native & hybrid mobile development
+        - text: Analyzed, designed and developed new systems and applications
+        - text: External partners support and external co-workers coordination
+        - text: Implemented complex UI designs (charts, rotating elements, animations)
+        - text: Implemented social logins and fingerprint authentication
+        - text: App theme dynamic changes with light/dark mode feature
+        - text: Android GPS locator and IoT devices communication
+        - text: Integration and customization of PDF editing library and indoor navigation system
+        - text: Custom qr code scanner
+        - text: Successfully identified, diagnosed, and fixed bugs and performance issues
+        - text: Firebase services integration
     - role: Tech Intern
       department: R&D Department
       time: Mar. 2019 - May 2019
       company: FIT Engineering Srl
       details: 
-        - text: Software developer in a team in charge of implementing an IoT communication system
+        - text: Implemented an IoT communication system with a CNC machine
+        - text: Studied CNC syntax and programmed CNC files
+        - text: Developed a Windows dashboard in C# showing live inputs and outputs of the machine
     - role: Tech Intern
       department: Frontend Team
       time: May 2018 - July 2018
       company: Spider4Web
       details: 
-        - text: Frontend developer
+        - text: Senior developers support in developing minor features
   
 certifications:
     title: Certifications
