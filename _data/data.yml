@@ -12,7 +12,7 @@ sidebar:
     tagline: Mobile & Web Frontend Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    pdf_version: "curriculum_stefano.pdf"
+    pdf_version: "curriculum_piasentin_stefano.pdf"
 
     # Sidebar links
     email: piasentin.st@gmail.com
@@ -65,9 +65,18 @@ education:
       time: Oct. 2015 - July 2017
 
 experiences:
+    - role: Mobile Engineer
+      department: Enterprise - Mobile Team
+      time: Jan 2023 - Today
+      company: DS Group SpA
+      details: 
+        - text: Enterprise department, developing and maintaining b2b apps
+        - text: Implementing features using custom libraries in Kotlin
+        - text: Handling data that an electrical technician has to collect/manipulate
+
     - role: Frontend Software Engineer
       department: Frontend Team
-      time: July 2022 - Today
+      time: July 2022 - Jan 2023
       company: Credimi SpA
       details: 
         - text: Developed and maintained company's website and products
