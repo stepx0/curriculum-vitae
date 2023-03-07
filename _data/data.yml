@@ -72,7 +72,7 @@ experiences:
       details: 
         - text: Enterprise department, developing and maintaining b2b apps
         - text: Implementing features using custom libraries in Kotlin
-        - text: Apps to help technicians collect/manipulate data
+        - text: Apps that help technicians collect/manipulate data
 
     - role: Frontend Software Engineer
       department: Frontend Team
