@@ -125,6 +125,11 @@ certifications:
         file: masterz-stefano-piasentin.pdf
         tagline: "Blockchain and Digital Assets"
 
+      - title: "Elements of AI - Introduction to AI"
+        issuer: University of Helsinki & MinnaLearn
+        file: certificate-elements-of-ai.pdf
+        tagline: "Elements of AI"
+
 skills:
     title: Skills & Competences
     toolset:
