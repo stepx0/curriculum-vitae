@@ -107,8 +107,17 @@ experiences:
       time: May 2018 - July 2018
       company: Spider4Web
       details: 
-        - text: Senior developers support in developing minor features
-  
+        - text: Supported senior web devs in developing minor features
+
+projects:
+    title: Projects
+    assignments:
+      - title: Plantastic
+        link: https://plantastic.it
+        tagline: A non-profit project that involves volunteers, landowners and donors to help reforest local communities.
+        details: 
+        - text: Developed a Flutter app (Plantastic App) that can be found in both Play Store and App Store.
+
 certifications:
     title: Certifications
     assignments:
@@ -128,6 +137,7 @@ certifications:
       - title: "Elements of AI - Introduction to AI"
         issuer: University of Helsinki & MinnaLearn
         file: certificate-elements-of-ai.pdf
+        link: https://certificates.mooc.fi/validate/ihqbeaq88v
         tagline: "Elements of AI"
 
 skills:
