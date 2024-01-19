@@ -107,7 +107,7 @@ experiences:
       time: May 2018 - July 2018
       company: Spider4Web
       details: 
-        - text: Supported senior web devs in developing minor features
+        - text: Supported senior web devs in implementing minor features
 
 projects:
     title: Projects
@@ -159,12 +159,12 @@ skills:
         level: 94%
         soft: True
 
-      - name: Web Development
-        level: 94%
+      - name: SQLite
+        level: 93%
         soft: False
 
-      - name: SQL, SQLite
-        level: 89%
+      - name: Web Development
+        level: 90%
         soft: False
 
       - name: Node.js, React
