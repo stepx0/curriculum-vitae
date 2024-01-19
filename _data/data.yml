@@ -42,10 +42,10 @@ sidebar:
       - item: Sports
         link: 
 
-      - item: Digital assets
+      - item: Environment & Sustainability
         link:
 
-      - item: Environment & Sustainability
+      - item: Studying
         link:
 
 career-profile:
@@ -114,9 +114,7 @@ projects:
     assignments:
       - title: Plantastic
         link: https://plantastic.it
-        tagline: A non-profit project that involves volunteers, landowners and donors to help reforest local communities.
-        details: 
-        - text: Developed a Flutter app (Plantastic App) that can be found in both Play Store and App Store.
+        tagline: A non-profit project that connects volunteers, landowners and donors to help reforest local communities.
 
 certifications:
     title: Certifications
