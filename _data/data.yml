@@ -116,6 +116,10 @@ projects:
         link: https://plantastic.it
         tagline: Co-founded a non-profit project that connects volunteers, landowners and donors to help reforest local communities through a mobile app.
 
+      - title: Digital Rilievi Website
+        link: https://digitalrilievi.it
+        tagline: Developed and maintaining Digital Rilievi Srl website.
+
 certifications:
     title: Certifications
     assignments:
@@ -127,26 +131,33 @@ certifications:
       #  tagline: "A"
 
       - title: "MasterZ Blockchain & Digital Assets - 2nd Edition"
-        credentials: "Student ID: 12"
+        credentials: "June 2022"
         issuer: MasterZ
         file: masterz-stefano-piasentin.pdf
         tagline: "Blockchain and Digital Assets"
 
       - title: "Elements of AI - Introduction to AI"
+        credentials: "Sep. 2023"
         issuer: University of Helsinki & MinnaLearn
         file: certificate-elements-of-ai.pdf
         tagline: "Elements of AI"
+
+      - title: "MasterZ x Solana Bootcamp"
+        credentials: "July 2024"
+        issuer: Solana Foundation & MasterZ
+        file: masterzxsolana-stefano-piasentin.pdf
+        tagline: "Solana Developer Exam"
 
 skills:
     title: Skills & Competences
     toolset:
       - name: Mobile Development
         level: 96%
-        soft: True
+        soft: False
 
       - name: Kotlin, Java, Dart
         level: 95%
-        soft: False
+        soft: True
 
       - name: REST, GraphQL
         level: 94%
@@ -162,15 +173,15 @@ skills:
 
       - name: Web Development
         level: 90%
-        soft: False
-
-      - name: Node.js, React
-        level: 88%
         soft: True
 
-      - name: Docker
+      - name: Node.js, React.js, Next.js
         level: 88%
         soft: False
+
+      - name: Docker
+        level: 86%
+        soft: True
 
       - name: Blockchain
         level: 85%
