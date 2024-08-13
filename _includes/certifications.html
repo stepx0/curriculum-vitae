@@ -26,7 +26,7 @@
             <a href="{{ certification.link }}" target="_blank">{{ certification.credentials }}</a>
           {% else %}
             {{ certification.credentials }} | <a href="{{ site.baseurl }}/assets/documents/{{ certification.file }}" 
-              download="masterz-stefano-piasentin.pdf">Download</a>
+              download="{{ certification.file }}">Download</a>
           {% endif %}
         </div>
       </span>
