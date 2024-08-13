@@ -67,7 +67,7 @@ education:
 experiences:
     - role: Mobile Engineer
       department: Mobile Team
-      time: Jan 2023 - Today
+      time: Jan. 2023 - Today
       company: DS Group SpA
       details: 
         - text: Enterprise department, developing and maintaining b2b apps
@@ -86,7 +86,7 @@ experiences:
         - text: Managed cookie compliance policy for landing pages
     - role: Mobile Developer
       department: Mobile Team
-      time: July. 2019 - June 2022
+      time: July 2019 - June 2022
       company: Aleapro Snc
       details: 
         - text: Analyzed, designed and developed new Android and Flutter mobile applications
