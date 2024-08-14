@@ -112,13 +112,13 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: Plantastic
+      - title: "Plantastic"
         link: https://plantastic.it
-        tagline: Co-founded a non-profit project that connects volunteers, landowners and donors to help reforest local communities through a mobile app.
+        tagline: "Co-founded a non-profit project that connects volunteers, landowners and donors to help reforest local communities through a mobile app."
 
-      - title: Digital Rilievi Website
+      - title: "Digital Rilievi Website"
         link: https://digitalrilievi.it
-        tagline: Developed and maintaining Digital Rilievi Srl website.
+        tagline: "Developed and maintaining Digital Rilievi Srl website."
 
 certifications:
     title: Certifications
