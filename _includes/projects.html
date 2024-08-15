@@ -32,8 +32,12 @@
       {% endif %}
 
     </div><!--//item-->
+    {% if not forloop.last %}
     <br>
+    {% endif %}
+    
   {% endfor %}
+
 
 </section><!--//section-->
 {% endif %}
