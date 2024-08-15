@@ -17,19 +17,18 @@
   {% endif %}
 
   {% for i in range(projects.assignments|length) %}
-    {% set project = projects.assignments[i] %}
     <div class="item">
 
       <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% if projects.assignments[i].link %}
+        <a href="{{ projects.assignments[i].link }}" target="_blank">{{ projects.assignments[i].title }}</a>
         {% else %}
-        {{ project.title }}
+        {{ projects.assignments[i].title }}
         {% endif %}
       </span>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% if projects.assignments[i].tagline %}
+      - <span class="project-tagline">{{ projects.assignments[i].tagline }}</span>
       {% endif %}
 
     </div><!--//item-->
