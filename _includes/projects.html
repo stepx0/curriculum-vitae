@@ -33,7 +33,11 @@
       {% endif %}
 
     </div><!--//item-->
-    <div>Last Item: {{ forloop.last }}</div>
+    <div class="item"> 
+      <span class="project-title">
+        Last Item: {{ forloop.last }}
+      </span>
+    </div>
     {% if i != (projects.assignments|length - 1) %}
     <br>
     {% endif %}
