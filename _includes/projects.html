@@ -16,35 +16,27 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for i in range(projects.assignments|length) %}
-    {% with project = projects.assignments[i] %}
-    <div class="item">
+  {% for project in projects.assignments %}
+  <div class="item">
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+    <span class="project-title">
+      {% if project.link %}
+      <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+      {% else %}
+      {{ project.title }}
       {% endif %}
+    </span>
 
-    </div><!--//item-->
-    <div class="item"> 
-      <span class="project-title">
-        Last Item: {{ forloop.last }}
-      </span>
-    </div>
-    {% if i != (projects.assignments|length - 1) %}
-    <br>
+    {% if project.tagline %}
+    - <span class="project-tagline">{{ project.tagline }}</span>
     {% endif %}
 
-    {% endwith %}
-    
-  {% endfor %}
+  </div><!--//item-->
+  {% unless forloop.last %}
+  <br>
+  {% endunless %}
+  
+{% endfor %}
 
 
 </section><!--//section-->
