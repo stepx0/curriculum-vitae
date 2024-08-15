@@ -16,7 +16,8 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
+  {% for i in range(projects.assignments|length) %}
+    {% set project = projects.assignments[i] %}
     <div class="item">
 
       <span class="project-title">
@@ -32,10 +33,10 @@
       {% endif %}
 
     </div><!--//item-->
-    {% if not forloop.last %}
+    {% if i != projects.assignments|length - 1 %}
     <br>
     {% endif %}
-    
+
   {% endfor %}
 
 
