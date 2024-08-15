@@ -175,7 +175,7 @@ skills:
         level: 90%
         soft: True
 
-      - name: Node.js, React.js, Next.js
+      - name: Node, React, Next
         level: 88%
         soft: False
 
