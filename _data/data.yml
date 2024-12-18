@@ -129,31 +129,31 @@ certifications:
       #  credentials: Verify
       #  link: https://a
       #  tagline: "A"
-
-      - title: "MasterZ Blockchain & Digital Assets - 2nd Edition"
-        credentials: "June 2022"
-        issuer: MasterZ
-        file: masterz-stefano-piasentin.pdf
-        tagline: "Blockchain and Digital Assets"
-
-      - title: "Elements of AI - Introduction to AI"
-        credentials: "Sep. 2023"
-        issuer: University of Helsinki & MinnaLearn
-        file: certificate-elements-of-ai.pdf
-        tagline: "Elements of AI"
-
-      - title: "MasterZ x Solana Bootcamp"
-        credentials: "July 2024"
-        issuer: Solana Foundation & MasterZ
-        file: masterzxsolana-stefano-piasentin.pdf
-        tagline: "Solana Developer Exam"
-
+      
       - title: "ITIL® 4 Foundation"
         credentials: "Dec. 2024"
         issuer: PeopleCert
         file: e-cert-stefano-piasentin.pdf
         tagline: "ITIL® 4 Foundation"
-
+        
+      - title: "MasterZ x Solana Bootcamp"
+        credentials: "July 2024"
+        issuer: Solana Foundation & MasterZ
+        file: masterzxsolana-stefano-piasentin.pdf
+        tagline: "Solana Developer Exam"
+        
+      - title: "Elements of AI - Introduction to AI"
+        credentials: "Sep. 2023"
+        issuer: University of Helsinki & MinnaLearn
+        file: certificate-elements-of-ai.pdf
+        tagline: "Elements of AI"
+        
+      - title: "MasterZ Blockchain & Digital Assets - 2nd Edition"
+        credentials: "June 2022"
+        issuer: MasterZ
+        file: masterz-stefano-piasentin.pdf
+        tagline: "Blockchain and Digital Assets"
+        
 skills:
     title: Skills & Competences
     toolset:
