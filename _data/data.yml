@@ -73,6 +73,7 @@ experiences:
         - text: Enterprise department, developing and maintaining b2b apps
         - text: Implementing features using custom libraries in Kotlin, Java and Dart
         - text: Apps that help Enel technicians collect/store/manipulate data worldwide
+        - text: Enterprise solutions with IBM WatsonX AI to introduce AI into business processes
 
     - role: Frontend Software Engineer
       department: Frontend Team
@@ -158,14 +159,22 @@ skills:
     title: Skills & Competences
     toolset:
       - name: Mobile Development
-        level: 96%
+        level: 99%
         soft: False
 
       - name: Kotlin, Java, Dart
-        level: 95%
+        level: 98%
         soft: True
 
-      - name: REST, GraphQL
+      - name: Code optimization
+        level: 97%
+        soft: True
+
+      - name: User Experience
+        level: 97%
+        soft: True
+
+      - name: REST, JSON
         level: 94%
         soft: False
 
@@ -173,7 +182,7 @@ skills:
         level: 94%
         soft: True
 
-      - name: SQLite
+      - name: SQL, SQLite
         level: 93%
         soft: False
 
@@ -185,12 +194,12 @@ skills:
         level: 88%
         soft: False
 
-      - name: Docker
+      - name: Docker, GraphQL
         level: 86%
         soft: True
-
-      - name: Blockchain
-        level: 85%
+      
+      - name: AI
+        level: 80%
         soft: False
 
 footer: >
