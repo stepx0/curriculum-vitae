@@ -121,6 +121,10 @@ projects:
         link: https://digitalrilievi.it
         tagline: "Developed and maintaining Digital Rilievi Srl website."
 
+      - title: "GCS Website"
+        link: https://gennycantonstudio.it
+        tagline: "Developed and maintaining GC Studio website."
+
 certifications:
     title: Certifications
     assignments:
