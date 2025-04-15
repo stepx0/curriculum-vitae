@@ -203,7 +203,7 @@ skills:
         soft: True
       
       - name: AI
-        level: 80%
+        level: 85%
         soft: False
 
 footer: >
