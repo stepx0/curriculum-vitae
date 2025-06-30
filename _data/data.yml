@@ -58,7 +58,7 @@ education:
       title: Mobile Development Engineer
       university: ITS Alto Adriatico
       time: Sep. 2017 - Aug. 2019
-      grade: "8/10"
+      #grade: "8/10"
     - degree: "Computer Engineering"
       title: Engineering
       university: Università di Padova
@@ -202,7 +202,7 @@ skills:
         level: 86%
         soft: True
       
-      - name: AI
+      - name: AI, Python
         level: 85%
         soft: False
 
