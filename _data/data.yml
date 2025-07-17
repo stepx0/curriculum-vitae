@@ -113,10 +113,6 @@ experiences:
 projects:
     title: Projects
     assignments:
-      - title: "Plantastic"
-        link: https://plantastic.it
-        tagline: "Co-founded a non-profit project that connects volunteers, landowners and donors to help reforest local communities through a mobile app."
-
       - title: "Digital Rilievi Website"
         link: https://digitalrilievi.it
         tagline: "Developed and maintaining Digital Rilievi Srl website."
@@ -124,6 +120,11 @@ projects:
       - title: "GCS Website"
         link: https://gennycantonstudio.it
         tagline: "Developed and maintaining GC Studio website."
+
+      - title: "Plantastic"
+        link: https://plantastic.it
+        tagline: "Co-founded a non-profit project that connects volunteers, landowners and donors to help reforest local communities through a mobile app."
+
 
 certifications:
     title: Certifications
@@ -174,7 +175,7 @@ skills:
         level: 97%
         soft: True
 
-      - name: User Experience
+      - name: Web Development
         level: 97%
         soft: True
 
@@ -190,10 +191,6 @@ skills:
         level: 93%
         soft: False
 
-      - name: Web Development
-        level: 90%
-        soft: True
-
       - name: Node, React, Next
         level: 88%
         soft: False
@@ -202,7 +199,7 @@ skills:
         level: 86%
         soft: True
       
-      - name: AI, Python
+      - name: AI, Python, LangChain
         level: 85%
         soft: False
 
