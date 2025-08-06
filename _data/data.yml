@@ -59,21 +59,31 @@ education:
       university: ITS Alto Adriatico
       time: Sep. 2017 - Aug. 2019
       #grade: "8/10"
+
     - degree: "Computer Engineering"
       title: Engineering
       university: Università di Padova
       time: Oct. 2015 - July 2017
 
 experiences:
+    - role: AI Team Lead
+      department: AI R&D Team
+      time: Aug. 2025 - Present
+      company: DS Group SpA
+      details: 
+        - text: In charge to propose tech solutions for AI projects
+        - text: Leading a small team developing both code and no-code AI solutions
+        - text: Developing B2b AI solutions to introduce AI into clients business processes
+
     - role: Software Engineer
-      department: Mobile Team | R&D Team
-      time: Jan. 2023 - Today
+      department: Mobile Team | AI R&D Team
+      time: Jan. 2023 - Present
       company: DS Group SpA
       details: 
         - text: Enterprise department, developing and maintaining b2b apps
         - text: Implementing features using custom libraries in Kotlin, Java and Dart
         - text: Apps that help Enel technicians collect/store/manipulate data worldwide
-        - text: B2b AI solutions to introduce AI into clients business processes
+        - text: Developing B2b AI solutions to introduce AI into clients business processes
 
     - role: Frontend Software Engineer
       department: Frontend Team
@@ -81,7 +91,7 @@ experiences:
       company: Credimi SpA
       details: 
         - text: Developed and maintained company's website and products
-        - text: Implemented Credimi’s new product page and a new customer flow
+        - text: Implemented Credimi's new product page and a new customer flow
         - text: Worked on making maintainable and reusable web components
         - text: Worked on cookies scripts integration for marketing purposes
         - text: Managed cookie compliance policy for landing pages
@@ -125,6 +135,11 @@ projects:
         link: https://plantastic.it
         tagline: "Co-founded a non-profit project that connects volunteers, landowners and donors to help reforest local communities through a mobile app."
 
+      - title: "Neural Network in C"
+        link: https://github.com/stepx0/neural-network
+        tagline: "Core neural network implementation for educational purposes (Work in Progress)."
+
+
 
 certifications:
     title: Certifications
@@ -167,7 +182,7 @@ skills:
         level: 99%
         soft: False
 
-      - name: Kotlin, Java, Dart
+      - name: Kotlin, Java, Dart, C, C++
         level: 98%
         soft: True
 
@@ -175,17 +190,13 @@ skills:
         level: 97%
         soft: True
 
-      - name: Web Development
+      - name: Web Development, Typescript, Javascript
         level: 97%
         soft: True
 
       - name: REST, JSON
         level: 94%
         soft: False
-
-      - name: Typescript, Javascript
-        level: 94%
-        soft: True
 
       - name: SQL, SQLite
         level: 93%
@@ -196,12 +207,17 @@ skills:
         soft: False
 
       - name: Docker, GraphQL
-        level: 86%
+        level: 87%
         soft: True
       
-      - name: AI, Python, LangChain
+      - name: Python, LangChain
         level: 85%
+        soft: False
+      
+      - name: AI, Neural Networks
+        level: 83%
         soft: False
 
 footer: >
     By Stefano Piasentin
+

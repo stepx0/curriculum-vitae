@@ -205,6 +205,13 @@ p {
         color: $text-grey;
         font-size: 12px;
         text-align: right;
+
+        .highlight {
+            color: orange;
+            opacity: 1;
+            filter: none;
+            font-weight: bold;
+        }
     }
     .company {
         margin-bottom: 10px;

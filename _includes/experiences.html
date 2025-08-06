@@ -21,7 +21,15 @@
           <div class="company">{{ experience.department }}, {{ experience.company }}</div>
         </div>
         <div class="right-col-titles">
-          <div class="time">{{ experience.time }}</div>
+          <div class="time">
+          {% assign parts = experience.time | split: " - " %}
+          {{ parts[0] }} -
+          {% if parts[1] == "Present" or parts[1] == "Today" %}
+            <span class="highlight">{{ parts[1] }}</span>
+          {% else %}
+            {{ parts[1] }}
+          {% endif %}
+          </div>
         </div>
       </div><!--//upper-row-->
     </div><!--//meta-->
