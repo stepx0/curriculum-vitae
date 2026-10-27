@@ -123,6 +123,7 @@ button{font:inherit;cursor:pointer}
 
   <section id="fate" aria-live="polite">
     <div class="fate-inner">
+      <p class="phrase" id="phrase"></p>
       
       <svg class="seal" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M32 20c-3-6-9-8-14-5-3-5-10-6-16-1 4 1 6 5 5 9 5-3 9-2 12 2 3-3 7-3 10 1l3-3 3 3c3-4 7-4 10-1 3-4 7-5 12-2-1-4 1-8 5-9-6-5-13-4-16 1-5-3-11-1-14 5z" transform="translate(0 14)"/></svg>
       <h2 class="role" id="role"></h2>
@@ -156,17 +157,23 @@ button{font:inherit;cursor:pointer}
   ];
   const FATES = [
     { id:"vittima",  w:1, role:"Vittima",
-      task:"Sei il mio pasto di stanotte. Se il Conte ti chiama per un brindisi, non puoi rifiutare." },
+      desc:"Sei il mio pasto di stanotte.",
+      task:"Se il Conte ti chiama per un brindisi, non puoi rifiutare." },
     { id:"servo",    w:1, role:"Servo di Renfield",
-      task:"Mangerai mosche e obbedirai. Porta da bere al Conte prima di mezzanotte." },
+      desc:"Mangerai mosche e obbedirai.",
+      task:"Porta da bere al Conte {prima}." },
     { id:"ospite",   w:1, role:"Ospite del castello",
-      task:"Sei entrato di tua volontà. Ora non puoi più andartene prima dell’alba." },
+      desc:"Sei entrato di tua volontà.",
+      task:"Ora non puoi più andartene prima dell’alba." },
     { id:"traditore", w:1, role:"Traditore",
-      task:"Hai tradito la fiducia del Conte. Per punizione, non puoi rivolgergli la parola fino a mezzanotte." },
+      desc:"Hai tradito la fiducia del Conte.",
+      task:"Per punizione, non puoi rivolgergli la parola {fino}." },
     { id:"becchino", w:1, role:"Becchino",
-      task:"Prepara le bare. Prima dell’alba avrò bisogno di te." },
+      desc:"Prepara le bare.",
+      task:"Prima dell’alba avrò bisogno di te." },
     { id:"prescelto", w:1, role:"L’anima prescelta",
-      task:"Fra tutte le anime di stanotte ho scelto te. Siederai alla mia destra per l’eternità. Non dirlo a nessuno." }
+      desc:"Fra tutte le anime di stanotte ho scelto te.",
+      task:"Siederai alla mia destra per l’eternità. Non dirlo a nessuno." }
   ];
 
   const KEY = "conte-fate";
@@ -261,11 +268,12 @@ button{font:inherit;cursor:pointer}
     const el=$("clock");
     function upd(){
       const now=new Date(), h=now.getHours();
-      if(h<5){ el.textContent="È passata la mezzanotte. Troppo tardi."; return; }
-      const mid=new Date(now); mid.setHours(24,0,0,0);
+      if(h>=2 && h<5){ el.textContent="Sono passate le 2 del mattino. Troppo tardi."; return; }
+      const late=h<2;
+      const mid=new Date(now); mid.setHours(late?2:24,0,0,0);
       const s=Math.floor((mid-now)/1000);
       const hh=String(Math.floor(s/3600)).padStart(2,"0"), mm=String(Math.floor(s%3600/60)).padStart(2,"0"), ss=String(s%60).padStart(2,"0");
-      el.textContent=`Mancano ${hh}:${mm}:${ss} a mezzanotte.`;
+      el.textContent=`Mancano ${hh}:${mm}:${ss} ${late?"alle 2 del mattino":"a mezzanotte"}.`;
     }
     upd(); clearInterval(clockTimer); clockTimer=setInterval(upd,1000);
   }
@@ -291,8 +299,12 @@ button{font:inherit;cursor:pointer}
     await sleep(600);
 
     
+    $("phrase").textContent = fate.desc;
     $("role").textContent = fate.role;
-    $("task").textContent = fate.task;
+    const lateNight = new Date().getHours() < 5;
+    $("task").textContent = fate.task
+      .replace("{prima}", lateNight ? "prima delle 2 del mattino" : "prima di mezzanotte")
+      .replace("{fino}", lateNight ? "fino alle 2 del mattino" : "fino a mezzanotte");
     $("again").hidden = true;
     runClock();
     $("fate").classList.add("on");
