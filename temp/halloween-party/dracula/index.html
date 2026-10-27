@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>L’orologio del Conte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --night:#06020a; --crypt:#1a0710; --blood:#7a0010; --fresh:#c1121f;
+  --bone:#eadfc8; --ash:#a8998a; --gold:#e6cf9c; --gold-hi:#f4e4b8;
+  color-scheme:dark;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  background:var(--night);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --night:#06020a; --bone:#eadfc8; }
+}
+:root[data-theme="dark"]{ --night:#06020a; --bone:#eadfc8; }
+*,*::before,*::after{box-sizing:inherit}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{
+  height:100%;margin:0;background:var(--night);color:var(--bone);
+  font-family:"Cormorant Garamond",Garamond,"Times New Roman",serif;
+  overflow:hidden;-webkit-tap-highlight-color:transparent;
+}
+.stage{position:relative;height:100%;display:grid;place-items:center;padding:24px;
+  background:radial-gradient(ellipse at 50% 38%, var(--crypt) 0%, var(--night) 70%);}
+#intro{display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center;max-width:34rem;transition:opacity .64s}
+#intro.gone{opacity:0;pointer-events:none}
+.watch{width:min(64vw,300px);height:auto;filter:drop-shadow(0 0 30px rgba(184,146,90,.18))}
+h1{font-family:"UnifrakturMaguntia","Old English Text MT",serif;font-weight:400;
+  font-size:clamp(2rem,9vw,3.2rem);line-height:1.05;margin:0;color:var(--bone);letter-spacing:.01em}
+.whisper{font-style:italic;font-size:1.25rem;line-height:1.5;margin:0;color:var(--ash)}
+button{font:inherit;cursor:pointer}
+.summon{
+  font-family:"Cormorant Garamond",serif;font-size:1.3rem;font-weight:600;
+  color:var(--bone);background:var(--blood);border:1px solid var(--fresh);
+  padding:14px 28px;border-radius:999px;min-height:52px;
+  box-shadow:0 0 0 0 rgba(193,18,31,.5);animation:pulse 1.92s ease-in-out infinite;
+}
+.summon:focus-visible{outline:2px solid var(--bone);outline-offset:4px}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(193,18,31,.45)}50%{box-shadow:0 0 0 14px rgba(193,18,31,0)}}
+
+/* bats */
+#bats{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:5}
+.bat{position:absolute;left:0;top:0;width:var(--s);animation:fly var(--d) cubic-bezier(.4,.1,.6,1) var(--delay) forwards;opacity:0}
+.bat svg{width:100%;height:auto;display:block;animation:flap .104s ease-in-out infinite alternate;transform-origin:50% 40%}
+.bat path{fill:#000;stroke:none}
+@keyframes fly{0%{opacity:1;transform:translate(var(--x0),var(--y0)) rotate(var(--r))}
+  100%{opacity:1;transform:translate(var(--x1),var(--y1)) rotate(calc(var(--r) * -1))}}
+@keyframes flap{from{transform:scaleY(1)}to{transform:scaleY(.25)}}
+
+/* darkness + eyes */
+#dark{position:fixed;inset:0;background:#000;opacity:0;pointer-events:none;z-index:6;transition:opacity .96s;display:flex;flex-direction:column;align-items:center;justify-content:center}
+#dark.on{opacity:1}
+.eyes{display:flex;gap:min(16vw,90px);opacity:0;transition:opacity 1.28s}
+#dark.eyes-on .eyes{opacity:1}
+.eye{width:min(13vw,64px);height:min(5vw,24px);border-radius:50%;
+  background:radial-gradient(ellipse at 50% 50%, #ffd2d2 0%, #ff1a2e 22%, #8a0010 60%, transparent 72%);
+  box-shadow:0 0 30px 8px rgba(255,20,40,.35);transform-origin:50% 50%}
+.eye.l{transform:rotate(12deg)} .eye.r{transform:rotate(-12deg)}
+#dark.blink .eye{animation:blink .72s ease-in-out 2}
+@keyframes blink{0%,40%,100%{scale:1 1}50%,60%{scale:1 .05}}
+
+
+/* fate */
+#fate{position:fixed;inset:0;z-index:8;background:#000;display:grid;place-items:center;padding:calc(28px + env(safe-area-inset-top,0px)) 28px calc(28px + env(safe-area-inset-bottom,0px));
+  opacity:0;pointer-events:none;transition:opacity 1.12s;text-align:center;overflow-y:auto}
+#fate.on{opacity:1;pointer-events:auto}
+.fate-inner{max-width:34rem;display:flex;flex-direction:column;align-items:center;gap:20px}
+.phrase{font-style:italic;font-weight:500;font-size:clamp(1.7rem,7.5vw,2.6rem);line-height:1.2;margin:0;color:var(--gold)}
+.seal{width:64px;height:64px;color:var(--gold);opacity:.9}
+.role{font-family:"Cinzel","Trajan Pro",Georgia,serif;font-weight:700;font-size:clamp(1.9rem,8.5vw,3rem);line-height:1.15;letter-spacing:.03em;margin:0;color:var(--gold-hi)}
+.task{font-size:clamp(1.5rem,6.2vw,2rem);line-height:1.4;margin:0;color:var(--gold);font-weight:500}
+.again{font-style:italic;font-size:clamp(1.3rem,5.4vw,1.6rem);margin:0;color:#f3c9c9}
+.clock{font-size:clamp(1.35rem,5.6vw,1.7rem);margin:6px 0 0;color:var(--gold);font-variant-numeric:tabular-nums}
+
+@media (prefers-reduced-motion: reduce){
+  .summon{animation:none}
+  .bat{display:none}
+}
+</style>
+</head>
+<body>
+<main class="stage">
+  <section id="intro">
+    <svg class="watch" id="watch" viewBox="0 0 200 230" aria-hidden="true">
+      <defs>
+        <radialGradient id="brass" cx="40%" cy="35%" r="70%">
+          <stop offset="0" stop-color="#e2c48e"/><stop offset=".55" stop-color="#b8925a"/><stop offset="1" stop-color="#5a4024"/>
+        </radialGradient>
+        <radialGradient id="face" cx="50%" cy="45%" r="60%">
+          <stop offset="0" stop-color="#f3ead6"/><stop offset="1" stop-color="#cdbd9c"/>
+        </radialGradient>
+      </defs>
+      <circle cx="100" cy="14" r="10" fill="none" stroke="url(#brass)" stroke-width="5"/>
+      <rect x="92" y="22" width="16" height="12" rx="3" fill="url(#brass)"/>
+      <circle cx="100" cy="128" r="94" fill="url(#brass)"/>
+      <circle cx="100" cy="128" r="84" fill="#3a2a16"/>
+      <circle cx="100" cy="128" r="80" fill="url(#face)"/>
+      <g id="ticks"></g>
+      <g id="numerals" font-family="Cormorant Garamond, serif" font-size="15" font-weight="600" fill="#2a1a0c" text-anchor="middle"></g>
+      <line id="hHand" x1="100" y1="128" x2="100" y2="84" stroke="#1a0f06" stroke-width="5" stroke-linecap="round"/>
+      <line id="mHand" x1="100" y1="128" x2="100" y2="66" stroke="#1a0f06" stroke-width="3" stroke-linecap="round"/>
+      <line id="sHand" x1="100" y1="140" x2="100" y2="60" stroke="#9a0a16" stroke-width="1.4" stroke-linecap="round"/>
+      <circle cx="100" cy="128" r="4.5" fill="#9a0a16"/>
+    </svg>
+    <h1>L’orologio del Conte</h1>
+    <p class="whisper">Hai aperto ciò che non dovevi.</p>
+    <button class="summon" id="summon">Tocca per conoscere il tuo destino</button>
+  </section>
+
+  <div id="bats"></div>
+  <div id="dark">
+    <div class="eyes"><div class="eye l"></div><div class="eye r"></div></div>
+  </div>
+
+  <section id="fate" aria-live="polite">
+    <div class="fate-inner">
+      
+      <svg class="seal" viewBox="0 0 64 64" aria-hidden="true"><path fill="currentColor" d="M32 20c-3-6-9-8-14-5-3-5-10-6-16-1 4 1 6 5 5 9 5-3 9-2 12 2 3-3 7-3 10 1l3-3 3 3c3-4 7-4 10-1 3-4 7-5 12-2-1-4 1-8 5-9-6-5-13-4-16 1-5-3-11-1-14 5z" transform="translate(0 14)"/></svg>
+      <h2 class="role" id="role"></h2>
+      <p class="again" id="again" hidden>Il destino non si cambia due volte.</p>
+      <p class="task" id="task"></p>
+      <p class="clock" id="clock"></p>
+    </div>
+  </section>
+</main>
+
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const SVGNS = "http://www.w3.org/2000/svg";
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const SPEED = 1.25;
+  const sleep = ms => new Promise(r => setTimeout(r, reduce ? Math.min(ms, 250) : ms / SPEED));
+
+  /* ---------- content ---------- */
+  const PHRASES = [
+    "È arrivata la tua ora.",
+    "A mezzanotte ti succhierò il sangue.",
+    "Il tuo sangue ha un profumo… interessante.",
+    "Non temere il buio. Temi chi ci vive dentro.",
+    "Ho atteso quattrocento anni per incontrarti.",
+    "Le tue vene cantano. Io ascolto.",
+    "Il tempo è dalla mia parte. Il tuo, invece, sta finendo.",
+    "Chiudi pure la porta. Io entro dalla finestra.",
+    "Questa notte nessuno ti sentirà gridare.",
+    "Stanotte il tuo collo è l’unica cosa che mi interessa."
+  ];
+  const FATES = [
+    { id:"vittima",  w:1, role:"Vittima",
+      task:"Sei il mio pasto di stanotte. Se il Conte ti chiama per un brindisi, non puoi rifiutare." },
+    { id:"servo",    w:1, role:"Servo di Renfield",
+      task:"Mangerai mosche e obbedirai. Porta da bere al Conte prima di mezzanotte." },
+    { id:"ospite",   w:1, role:"Ospite del castello",
+      task:"Sei entrato di tua volontà. Ora non puoi più andartene prima dell’alba." },
+    { id:"traditore", w:1, role:"Traditore",
+      task:"Hai tradito la fiducia del Conte. Per punizione, non puoi rivolgergli la parola fino a mezzanotte." },
+    { id:"becchino", w:1, role:"Becchino",
+      task:"Prepara le bare. Prima dell’alba avrò bisogno di te." },
+    { id:"prescelto", w:1, role:"L’anima prescelta",
+      task:"Fra tutte le anime di stanotte ho scelto te. Siederai alla mia destra per l’eternità. Non dirlo a nessuno." }
+  ];
+
+  const KEY = "conte-fate";
+  const store = {
+    get(){ try{ return localStorage.getItem(KEY); }catch(e){ return null; } },
+    set(v){ try{ localStorage.setItem(KEY, v); }catch(e){} },
+    clear(){ try{ localStorage.removeItem(KEY); }catch(e){} }
+  };
+  if (location.hash === "#reset") store.clear();
+
+  function pickFate(){
+    const total = FATES.reduce((a,f)=>a+f.w,0);
+    let r = Math.random()*total;
+    for (const f of FATES){ if ((r -= f.w) < 0) return f; }
+    return FATES[0];
+  }
+
+  /* ---------- watch face ---------- */
+  const ticks = $("ticks"), nums = $("numerals");
+  const ROMAN = ["XII","I","II","III","IV","V","VI","VII","VIII","IX","X","XI"];
+  for (let i=0;i<60;i++){
+    const a = i*6*Math.PI/180, big = i%5===0;
+    const r1 = big?70:74, r2 = 78;
+    const l = document.createElementNS(SVGNS,"line");
+    l.setAttribute("x1",100+r1*Math.sin(a)); l.setAttribute("y1",128-r1*Math.cos(a));
+    l.setAttribute("x2",100+r2*Math.sin(a)); l.setAttribute("y2",128-r2*Math.cos(a));
+    l.setAttribute("stroke","#2a1a0c"); l.setAttribute("stroke-width",big?2:.8);
+    ticks.appendChild(l);
+  }
+  ROMAN.forEach((n,i)=>{
+    const a = i*30*Math.PI/180, r = 58;
+    const t = document.createElementNS(SVGNS,"text");
+    t.setAttribute("x",100+r*Math.sin(a)); t.setAttribute("y",128-r*Math.cos(a)+5);
+    t.textContent = n; nums.appendChild(t);
+  });
+  const hH=$("hHand"), mH=$("mHand"), sH=$("sHand");
+  function setHands(h,m,s){
+    hH.setAttribute("transform",`rotate(${h} 100 128)`);
+    mH.setAttribute("transform",`rotate(${m} 100 128)`);
+    sH.setAttribute("transform",`rotate(${s} 100 128)`);
+  }
+  let live = true;
+  function liveTick(){
+    if (!live) return;
+    const d = new Date(), s = d.getSeconds(), m = d.getMinutes()+s/60, h = (d.getHours()%12)+m/60;
+    setHands(h*30, m*6, s*6);
+  }
+  liveTick(); setInterval(liveTick, 1000);
+
+
+  /* ---------- watch spin ---------- */
+  function spinToMidnight(ms=2600){
+    return new Promise(res=>{
+      live=false;
+      const d=new Date(), m0=(d.getHours()%12)*60+d.getMinutes()+d.getSeconds()/60;
+      const start=performance.now(), span=m0+720;
+      function frame(now){
+        const p=Math.min(1,(now-start)/(reduce?200:ms/SPEED));
+        const e=p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+        const v=m0-span*e;
+        setHands(v/2, (v%60)*6, -now*1.4*SPEED);
+        if(p<1) requestAnimationFrame(frame); else { setHands(0,0,0); res(); }
+      }
+      requestAnimationFrame(frame);
+    });
+  }
+
+  /* ---------- bats ---------- */
+  const BAT = '<svg viewBox="0 0 100 50"><path d="M50 18c-1-4-2-6-3-7l-1 5c-6-2-12 0-16 5-3-6-12-9-22-6 5 2 7 7 6 12 6-3 12-2 15 3 3-3 8-3 11 0 2-2 5-2 7 0l3 4 3-4c2-2 5-2 7 0 3-3 8-3 11 0 3-5 9-6 15-3-1-5 1-10 6-12-10-3-19 0-22 6-4-5-10-7-16-5l-1-5c-1 1-2 3-3 7z"/></svg>';
+  function batSwarm(){
+    if (reduce) return;
+    const box=$("bats"), W=innerWidth, H=innerHeight, n=W<500?18:28;
+    box.innerHTML="";
+    for(let i=0;i<n;i++){
+      const b=document.createElement("div"); b.className="bat";
+      const size=(W<500?70+Math.random()*110:100+Math.random()*170), fromLeft=Math.random()<.5;
+      const y0=H*(.35+Math.random()*.7), y1=-H*(.1+Math.random()*.4);
+      b.style.setProperty("--s",size+"px");
+      b.style.setProperty("--x0",(fromLeft?-size-60:W+60)+"px");
+      b.style.setProperty("--x1",(fromLeft?W+60:-size-80)+(Math.random()*120-60)+"px");
+      b.style.setProperty("--y0",y0+"px"); b.style.setProperty("--y1",y1+"px");
+      b.style.setProperty("--r",(Math.random()*30-15)+"deg");
+      b.style.setProperty("--d",((1.4+Math.random()*1.4)/SPEED)+"s");
+      b.style.setProperty("--delay",((Math.random()*1.1)/SPEED)+"s");
+      b.innerHTML=BAT; box.appendChild(b);
+    }
+    setTimeout(()=>{ box.innerHTML=""; },4200/SPEED);
+  }
+
+  let clockTimer=null;
+  function runClock(){
+    const el=$("clock");
+    function upd(){
+      const now=new Date(), h=now.getHours();
+      if(h<5){ el.textContent="È passata la mezzanotte. Troppo tardi."; return; }
+      const mid=new Date(now); mid.setHours(24,0,0,0);
+      const s=Math.floor((mid-now)/1000);
+      const hh=String(Math.floor(s/3600)).padStart(2,"0"), mm=String(Math.floor(s%3600/60)).padStart(2,"0"), ss=String(s%60).padStart(2,"0");
+      el.textContent=`Mancano ${hh}:${mm}:${ss} a mezzanotte.`;
+    }
+    upd(); clearInterval(clockTimer); clockTimer=setInterval(upd,1000);
+  }
+
+  let running=false;
+  async function ritual(){
+    if(running) return; running=true;
+    $("summon").disabled=true;
+
+    const fate = pickFate();
+
+    await spinToMidnight();
+    await sleep(900);
+    batSwarm();
+    await sleep(1500);
+    $("intro").classList.add("gone");
+    $("dark").classList.add("on");
+    await sleep(2000);
+    $("dark").classList.add("eyes-on");
+    await sleep(1700);
+    $("dark").classList.add("blink");
+    await sleep(2000);
+    await sleep(600);
+
+    
+    $("role").textContent = fate.role;
+    $("task").textContent = fate.task;
+    $("again").hidden = true;
+    runClock();
+    $("fate").classList.add("on");
+  }
+
+  $("summon").addEventListener("click", ritual);
+})();
+</script>
+</body>
+</html>
