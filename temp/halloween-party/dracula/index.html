@@ -31,7 +31,7 @@ body{
 }
 .stage{position:relative;height:100%;display:grid;place-items:center;padding:24px;
   background:radial-gradient(ellipse at 50% 38%, var(--crypt) 0%, var(--night) 70%);}
-#intro{display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center;max-width:34rem;transition:opacity .64s}
+#intro{display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center;max-width:34rem;transition:opacity .512s}
 #intro.gone{opacity:0;pointer-events:none}
 .watch{width:min(64vw,300px);height:auto;filter:drop-shadow(0 0 30px rgba(184,146,90,.18))}
 h1{font-family:"UnifrakturMaguntia","Old English Text MT",serif;font-weight:400;
@@ -42,36 +42,40 @@ button{font:inherit;cursor:pointer}
   font-family:"Cormorant Garamond",serif;font-size:1.3rem;font-weight:600;
   color:var(--bone);background:var(--blood);border:1px solid var(--fresh);
   padding:14px 28px;border-radius:999px;min-height:52px;
-  box-shadow:0 0 0 0 rgba(193,18,31,.5);animation:pulse 1.92s ease-in-out infinite;
+  box-shadow:0 0 0 0 rgba(193,18,31,.5);animation:pulse 1.536s ease-in-out infinite;
 }
 .summon:focus-visible{outline:2px solid var(--bone);outline-offset:4px}
+.mine{background:transparent;border:1px solid var(--gold);color:var(--gold);
+  font-family:"Cormorant Garamond",serif;font-size:1.15rem;font-weight:600;
+  padding:10px 24px;border-radius:999px;min-height:46px}
+.mine:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
 @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(193,18,31,.45)}50%{box-shadow:0 0 0 14px rgba(193,18,31,0)}}
 
 /* bats */
 #bats{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:5}
 .bat{position:absolute;left:0;top:0;width:var(--s);animation:fly var(--d) cubic-bezier(.4,.1,.6,1) var(--delay) forwards;opacity:0}
-.bat svg{width:100%;height:auto;display:block;animation:flap .104s ease-in-out infinite alternate;transform-origin:50% 40%}
+.bat svg{width:100%;height:auto;display:block;animation:flap .0832s ease-in-out infinite alternate;transform-origin:50% 40%}
 .bat path{fill:#000;stroke:none}
 @keyframes fly{0%{opacity:1;transform:translate(var(--x0),var(--y0)) rotate(var(--r))}
   100%{opacity:1;transform:translate(var(--x1),var(--y1)) rotate(calc(var(--r) * -1))}}
 @keyframes flap{from{transform:scaleY(1)}to{transform:scaleY(.25)}}
 
 /* darkness + eyes */
-#dark{position:fixed;inset:0;background:#000;opacity:0;pointer-events:none;z-index:6;transition:opacity .96s;display:flex;flex-direction:column;align-items:center;justify-content:center}
+#dark{position:fixed;inset:0;background:#000;opacity:0;pointer-events:none;z-index:6;transition:opacity .768s;display:flex;flex-direction:column;align-items:center;justify-content:center}
 #dark.on{opacity:1}
-.eyes{display:flex;gap:min(16vw,90px);opacity:0;transition:opacity 1.28s}
+.eyes{display:flex;gap:min(16vw,90px);opacity:0;transition:opacity 1.024s}
 #dark.eyes-on .eyes{opacity:1}
 .eye{width:min(13vw,64px);height:min(5vw,24px);border-radius:50%;
   background:radial-gradient(ellipse at 50% 50%, #ffd2d2 0%, #ff1a2e 22%, #8a0010 60%, transparent 72%);
   box-shadow:0 0 30px 8px rgba(255,20,40,.35);transform-origin:50% 50%}
 .eye.l{transform:rotate(12deg)} .eye.r{transform:rotate(-12deg)}
-#dark.blink .eye{animation:blink .72s ease-in-out 2}
+#dark.blink .eye{animation:blink .576s ease-in-out 2}
 @keyframes blink{0%,40%,100%{scale:1 1}50%,60%{scale:1 .05}}
 
 
 /* fate */
 #fate{position:fixed;inset:0;z-index:8;background:#000;display:grid;place-items:center;padding:calc(28px + env(safe-area-inset-top,0px)) 28px calc(28px + env(safe-area-inset-bottom,0px));
-  opacity:0;pointer-events:none;transition:opacity 1.12s;text-align:center;overflow-y:auto}
+  opacity:0;pointer-events:none;transition:opacity .896s;text-align:center;overflow-y:auto}
 #fate.on{opacity:1;pointer-events:auto}
 .fate-inner{max-width:34rem;display:flex;flex-direction:column;align-items:center;gap:20px}
 .phrase{font-style:italic;font-weight:500;font-size:clamp(1.7rem,7.5vw,2.6rem);line-height:1.2;margin:0;color:var(--gold)}
@@ -114,6 +118,8 @@ button{font:inherit;cursor:pointer}
     <h1>L’orologio del Conte</h1>
     <p class="whisper">Hai aperto ciò che non dovevi.</p>
     <button class="summon" id="summon">Tocca per conoscere il tuo destino</button>
+    <button class="mine" id="mine">La mia sfida</button>
+    <p class="whisper" id="mineMsg" hidden>Non hai ancora una sfida. Tocca il pulsante rosso per riceverla.</p>
   </section>
 
   <div id="bats"></div>
@@ -139,7 +145,7 @@ button{font:inherit;cursor:pointer}
   const $ = id => document.getElementById(id);
   const SVGNS = "http://www.w3.org/2000/svg";
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const SPEED = 1.25;
+  const SPEED = 1.5625;
   const sleep = ms => new Promise(r => setTimeout(r, reduce ? Math.min(ms, 250) : ms / SPEED));
 
   /* ---------- content ---------- */
@@ -156,27 +162,37 @@ button{font:inherit;cursor:pointer}
     "Stanotte il tuo collo è l’unica cosa che mi interessa."
   ];
   const FATES = [
-    { id:"vittima",  w:1, role:"Vittima",
-      desc:"Sei il mio pasto di stanotte.",
-      task:"Se il Conte ti chiama per un brindisi, non puoi rifiutare." },
     { id:"servo",    w:1, role:"Servo di Renfield",
       desc:"Mangerai mosche e obbedirai.",
       task:"Porta da bere al Conte {prima}." },
-    { id:"ospite",   w:1, role:"Ospite del castello",
-      desc:"Sei entrato di tua volontà.",
-      task:"Ora non puoi più andartene prima dell’alba." },
-    { id:"traditore", w:1, role:"Traditore",
-      desc:"Hai tradito la fiducia del Conte.",
-      task:"Per punizione, non puoi rivolgergli la parola {fino}." },
-    { id:"becchino", w:1, role:"Becchino",
-      desc:"Prepara le bare.",
-      task:"Prima dell’alba avrò bisogno di te." },
-    { id:"prescelto", w:1, role:"L’anima prescelta",
-      desc:"Fra tutte le anime di stanotte ho scelto te.",
-      task:"Siederai alla mia destra per l’eternità. Non dirlo a nessuno." }
+    { id:"riflesso", w:1, role:"Riflesso",
+      desc:"I vampiri non hanno riflesso, ma tu sì.",
+      task:"Imita i movimenti di qualcuno finché non se ne accorge." },
+    { id:"ammaliatore", w:1, role:"Ammaliatore",
+      desc:"Le parole sono le mie armi.",
+      task:"Fai dire “{parola}” a qualcuno senza dirla tu." },
+    { id:"cavaliere", w:1, role:"Cavaliere del Conte",
+      desc:"Brindo al tuo coraggio.",
+      task:"Bevi il bicchiere al salto." },
+    { id:"eco", w:1, role:"Eco",
+      desc:"Ripeti ciò che senti nella notte.",
+      task:"Ripeti l’ultima parola di qualcuno tre volte in una conversazione, senza che se ne accorga." },
+    { id:"fantasma", w:1, role:"Fantasma",
+      desc:"Una voce nel buio.",
+      task:"Fai voltare qualcuno chiamandolo, senza che capisca chi è stato." },
+    { id:"bugiardo", w:1, role:"Bugiardo",
+      desc:"La verità è sopravvalutata.",
+      task:"Racconta una storia falsa su di te e fai in modo che qualcuno ci creda." },
+    { id:"cerimoniere", w:1, role:"Cerimoniere",
+      desc:"Le conversazioni prendono la mia piega.",
+      task:"Porta una conversazione di gruppo a parlare di vampiri, senza farlo notare." },
+    { id:"esattore", w:1, role:"Esattore del Conte",
+      desc:"Ogni gadget ha il suo prezzo.",
+      task:"Scegli qualcuno che indossa un gadget (maschera, cappello, denti finti…): deve bere un sorso alla salute del Conte." }
   ];
+  const WORDS = ["sangue","aglio","bara","pipistrello","castello","notte"];
 
-  const KEY = "conte-fate";
+  const KEY = "conte-sfida";
   const store = {
     get(){ try{ return localStorage.getItem(KEY); }catch(e){ return null; } },
     set(v){ try{ localStorage.setItem(KEY, v); }catch(e){} },
@@ -299,16 +315,37 @@ button{font:inherit;cursor:pointer}
     await sleep(600);
 
     
+    const word = WORDS[Math.floor(Math.random()*WORDS.length)];
+    store.set(JSON.stringify({ id:fate.id, word }));
+    saved = { fate, word };
+    showFate(fate, word);
+  }
+
+  function showFate(fate, word){
+    const lateNight = new Date().getHours() < 5;
     $("phrase").textContent = fate.desc;
     $("role").textContent = fate.role;
-    const lateNight = new Date().getHours() < 5;
     $("task").textContent = fate.task
       .replace("{prima}", lateNight ? "prima delle 2 del mattino" : "prima di mezzanotte")
-      .replace("{fino}", lateNight ? "fino alle 2 del mattino" : "fino a mezzanotte");
+      .replace("{fino}", lateNight ? "fino alle 2 del mattino" : "fino a mezzanotte")
+      .replace("{parola}", word);
     $("again").hidden = true;
     runClock();
     $("fate").classList.add("on");
   }
+
+  // "La mia sfida": last challenge saved on this phone until a new one is drawn
+  let saved = null;
+  try{
+    const raw = JSON.parse(store.get() || "null");
+    const f = raw && FATES.find(x=>x.id===raw.id);
+    if (f) saved = { fate:f, word: WORDS.includes(raw.word) ? raw.word : WORDS[0] };
+  }catch(e){ saved = null; }
+  $("mine").addEventListener("click", ()=>{
+    if (running) return;
+    if (!saved){ $("mineMsg").hidden = false; return; }
+    showFate(saved.fate, saved.word);
+  });
 
   $("summon").addEventListener("click", ritual);
 })();
