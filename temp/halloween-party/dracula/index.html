@@ -188,7 +188,7 @@ button{font:inherit;cursor:pointer}
       task:"Porta una conversazione di gruppo a parlare di vampiri, senza farlo notare." },
     { id:"esattore", w:1, role:"Esattore del Conte",
       desc:"Ogni gadget ha il suo prezzo.",
-      task:"Scegli qualcuno che indossa un gadget (maschera, cappello, denti finti…): deve bere un sorso alla salute del Conte." }
+      task:"Scegli qualcuno che indossa un gadget: deve bere un sorso alla salute del Conte." }
   ];
   const WORDS = ["sangue","aglio","bara","pipistrello","castello","notte"];
 
@@ -265,7 +265,7 @@ button{font:inherit;cursor:pointer}
     box.innerHTML="";
     for(let i=0;i<n;i++){
       const b=document.createElement("div"); b.className="bat";
-      const size=(W<500?70+Math.random()*110:100+Math.random()*170), fromLeft=Math.random()<.5;
+      const size=(W<500?140+Math.random()*220:200+Math.random()*340), fromLeft=Math.random()<.5;
       const y0=H*(.35+Math.random()*.7), y1=-H*(.1+Math.random()*.4);
       b.style.setProperty("--s",size+"px");
       b.style.setProperty("--x0",(fromLeft?-size-60:W+60)+"px");
@@ -273,7 +273,7 @@ button{font:inherit;cursor:pointer}
       b.style.setProperty("--y0",y0+"px"); b.style.setProperty("--y1",y1+"px");
       b.style.setProperty("--r",(Math.random()*30-15)+"deg");
       b.style.setProperty("--d",((1.4+Math.random()*1.4)/SPEED)+"s");
-      b.style.setProperty("--delay",((Math.random()*1.1)/SPEED)+"s");
+      b.style.setProperty("--delay",((Math.random()*0.35)/SPEED)+"s");
       b.innerHTML=BAT; box.appendChild(b);
     }
     setTimeout(()=>{ box.innerHTML=""; },4200/SPEED);
@@ -302,17 +302,15 @@ button{font:inherit;cursor:pointer}
     const fate = pickFate();
 
     await spinToMidnight();
-    await sleep(900);
     batSwarm();
-    await sleep(1500);
+    await sleep(1000);
     $("intro").classList.add("gone");
     $("dark").classList.add("on");
-    await sleep(2000);
+    await sleep(1200);
     $("dark").classList.add("eyes-on");
-    await sleep(1700);
+    await sleep(1100);
     $("dark").classList.add("blink");
-    await sleep(2000);
-    await sleep(600);
+    await sleep(1900);
 
     
     const word = WORDS[Math.floor(Math.random()*WORDS.length)];
